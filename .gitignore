@@ -1,3 +1,5 @@
 *.pdf
 *.csv
 *.xml
+*autosave*
+*fp-info*
