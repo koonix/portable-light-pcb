@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name portable-light-rescue)(type Legacy)(uri ${KIPRJMOD}/portable-light-rescue.lib)(options "")(descr ""))
+)

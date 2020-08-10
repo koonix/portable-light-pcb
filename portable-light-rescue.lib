@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# portable-light-rescue_+15V-power
+# +15V-power
 #
-DEF portable-light-rescue_+15V-power #PWR 0 0 Y Y 1 F P
+DEF +15V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "portable-light-rescue_+15V-power" 0 140 50 H V C CNN
+F1 "+15V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +15V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_+BATT-power
+# +BATT-power
 #
-DEF portable-light-rescue_+BATT-power #PWR 0 0 Y Y 1 F P
+DEF +BATT-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "portable-light-rescue_+BATT-power" 0 140 50 H V C CNN
+F1 "+BATT-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +BATT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_1N5819-Diode
+# 1N5819-Diode
 #
-DEF portable-light-rescue_1N5819-Diode D 0 40 N N 1 F N
+DEF 1N5819-Diode D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "portable-light-rescue_1N5819-Diode" 0 -100 50 H V C CNN
+F1 "1N5819-Diode" 0 -100 50 H V C CNN
 F2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" 0 -175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -50,11 +50,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_ATmega88PA-AU-MCU_Microchip_ATmega
+# ATmega88PA-AU-MCU_Microchip_ATmega
 #
-DEF portable-light-rescue_ATmega88PA-AU-MCU_Microchip_ATmega U 0 20 Y Y 1 F N
+DEF ATmega88PA-AU-MCU_Microchip_ATmega U 0 20 Y Y 1 F N
 F0 "U" -500 1450 50 H V L BNN
-F1 "portable-light-rescue_ATmega88PA-AU-MCU_Microchip_ATmega" 100 -1450 50 H V L TNN
+F1 "ATmega88PA-AU-MCU_Microchip_ATmega" 100 -1450 50 H V L TNN
 F2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -97,11 +97,11 @@ X PD5 9 600 -1000 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_Battery_Cell-Device
+# Battery_Cell-Device
 #
-DEF portable-light-rescue_Battery_Cell-Device BT 0 0 N N 1 F N
+DEF Battery_Cell-Device BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "portable-light-rescue_Battery_Cell-Device" 100 0 50 H V L CNN
+F1 "Battery_Cell-Device" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -116,11 +116,11 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_C_Small-Device
+# C_Small-Device
 #
-DEF portable-light-rescue_C_Small-Device C 0 10 N N 1 F N
+DEF C_Small-Device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "portable-light-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F1 "C_Small-Device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -134,11 +134,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_Conn_01x02-Connector_Generic
+# Conn_01x02-Connector_Generic
 #
-DEF portable-light-rescue_Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "portable-light-rescue_Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
+F1 "Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -153,11 +153,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_Conn_01x05-Connector_Generic
+# Conn_01x05-Connector_Generic
 #
-DEF portable-light-rescue_Conn_01x05-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x05-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "portable-light-rescue_Conn_01x05-Connector_Generic" 0 -300 50 H V C CNN
+F1 "Conn_01x05-Connector_Generic" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -178,11 +178,11 @@ X Pin_5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_Conn_01x08-Connector_Generic
+# Conn_01x08-Connector_Generic
 #
-DEF portable-light-rescue_Conn_01x08-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x08-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "portable-light-rescue_Conn_01x08-Connector_Generic" 0 -500 50 H V C CNN
+F1 "Conn_01x08-Connector_Generic" 0 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -209,11 +209,11 @@ X Pin_8 8 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_Crystal-Device
+# Crystal-Device
 #
-DEF portable-light-rescue_Crystal-Device Y 0 40 N N 1 F N
+DEF Crystal-Device Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "portable-light-rescue_Crystal-Device" 0 -150 50 H V C CNN
+F1 "Crystal-Device" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -230,11 +230,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_GND-power
+# GND-power
 #
-DEF portable-light-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "portable-light-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -243,11 +243,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_GNDA-power
+# GNDA-power
 #
-DEF portable-light-rescue_GNDA-power #PWR 0 0 Y Y 1 F P
+DEF GNDA-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "portable-light-rescue_GNDA-power" 0 -150 50 H V C CNN
+F1 "GNDA-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -256,11 +256,11 @@ X GNDA 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_GNDPWR-power
+# GNDPWR-power
 #
-DEF portable-light-rescue_GNDPWR-power #PWR 0 0 Y Y 1 F P
+DEF GNDPWR-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -200 50 H I C CNN
-F1 "portable-light-rescue_GNDPWR-power" 0 -130 50 H V C CNN
+F1 "GNDPWR-power" 0 -130 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 DRAW
@@ -275,11 +275,11 @@ X GNDPWR 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_Jumper_2_Open-Jumper
+# Jumper_2_Open-Jumper
 #
-DEF portable-light-rescue_Jumper_2_Open-Jumper JP 0 0 Y N 1 F N
+DEF Jumper_2_Open-Jumper JP 0 0 Y N 1 F N
 F0 "JP" 0 110 50 H V C CNN
-F1 "portable-light-rescue_Jumper_2_Open-Jumper" 0 -90 50 H V C CNN
+F1 "Jumper_2_Open-Jumper" 0 -90 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -296,11 +296,11 @@ X B 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_L-Device
+# L-Device
 #
-DEF portable-light-rescue_L-Device L 0 40 N N 1 F N
+DEF L-Device L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "portable-light-rescue_L-Device" 75 0 50 V V C CNN
+F1 "L-Device" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -319,11 +319,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_L78L05_SOT89-Regulator_Linear
+# L78L05_SOT89-Regulator_Linear
 #
-DEF portable-light-rescue_L78L05_SOT89-Regulator_Linear U 0 10 Y Y 1 F N
+DEF L78L05_SOT89-Regulator_Linear U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "portable-light-rescue_L78L05_SOT89-Regulator_Linear" -25 125 50 H V L CNN
+F1 "L78L05_SOT89-Regulator_Linear" -25 125 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-89-3" 0 200 50 H I C CIN
 F3 "" 0 -50 50 H I C CNN
 $FPLIST
@@ -337,11 +337,11 @@ X IN 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_LED-Device
+# LED-Device
 #
-DEF portable-light-rescue_LED-Device D 0 40 N N 1 F N
+DEF LED-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "portable-light-rescue_LED-Device" 0 -100 50 H V C CNN
+F1 "LED-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -360,11 +360,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_LTC1733EMSEPBF-LTC1733
+# LTC1733EMSEPBF-LTC1733
 #
-DEF portable-light-rescue_LTC1733EMSEPBF-LTC1733 U 0 40 Y Y 1 L N
+DEF LTC1733EMSEPBF-LTC1733 U 0 40 Y Y 1 L N
 F0 "U" 1115 359 50 H V L BNN
-F1 "portable-light-rescue_LTC1733EMSEPBF-LTC1733" 1090 259 50 H V L BNN
+F1 "LTC1733EMSEPBF-LTC1733" 1090 259 50 H V L BNN
 F2 "MSOP-10_MSE" 0 0 50 H I L BNN
 F3 "ltc1733emse#pbf" 0 0 50 H I L BNN
 F4 "Linear Technology" 0 0 50 H I L BNN
@@ -387,11 +387,11 @@ X BAT 9 2600 -200 300 L 40 40 0 0 O
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_MMBT3904-Transistor_BJT
+# MMBT3904-Transistor_BJT
 #
-DEF portable-light-rescue_MMBT3904-Transistor_BJT Q 0 0 Y N 1 F N
+DEF MMBT3904-Transistor_BJT Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "portable-light-rescue_MMBT3904-Transistor_BJT" 200 0 50 H V L CNN
+F1 "MMBT3904-Transistor_BJT" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -409,11 +409,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_Net-Tie_2-Device
+# Net-Tie_2-Device
 #
-DEF portable-light-rescue_Net-Tie_2-Device NT 0 0 N N 1 F N
+DEF Net-Tie_2-Device NT 0 0 N N 1 F N
 F0 "NT" 0 50 50 H V C CNN
-F1 "portable-light-rescue_Net-Tie_2-Device" 0 -50 50 H V C CNN
+F1 "Net-Tie_2-Device" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -426,11 +426,11 @@ X 2 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_PHD45N03LTA-PHD45N03LTA
+# PHD45N03LTA-PHD45N03LTA
 #
-DEF portable-light-rescue_PHD45N03LTA-PHD45N03LTA Q 0 40 Y N 1 L N
+DEF PHD45N03LTA-PHD45N03LTA Q 0 40 Y N 1 L N
 F0 "Q" 200 0 50 H V L BNN
-F1 "portable-light-rescue_PHD45N03LTA-PHD45N03LTA" 200 -100 50 H V L BNN
+F1 "PHD45N03LTA-PHD45N03LTA" 200 -100 50 H V L BNN
 F2 "DPAK" 0 0 50 H I L BNN
 F3 "NXP" 0 0 50 H I L BNN
 DRAW
@@ -479,11 +479,11 @@ X ~ 4 0 300 100 D 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_R_Small-Device
+# R_Small-Device
 #
-DEF portable-light-rescue_R_Small-Device R 0 10 N N 1 F N
+DEF R_Small-Device R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "portable-light-rescue_R_Small-Device" 30 -40 50 H V L CNN
+F1 "R_Small-Device" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -496,11 +496,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_SolderJumper_2_Open-Jumper
+# SolderJumper_2_Open-Jumper
 #
-DEF portable-light-rescue_SolderJumper_2_Open-Jumper JP 0 0 Y N 1 F N
+DEF SolderJumper_2_Open-Jumper JP 0 0 Y N 1 F N
 F0 "JP" 0 80 50 H V C CNN
-F1 "portable-light-rescue_SolderJumper_2_Open-Jumper" 0 -100 50 H V C CNN
+F1 "SolderJumper_2_Open-Jumper" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -518,11 +518,11 @@ X B 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_VBUS-power
+# VBUS-power
 #
-DEF portable-light-rescue_VBUS-power #PWR 0 0 Y Y 1 F P
+DEF VBUS-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "portable-light-rescue_VBUS-power" 0 150 50 H V C CNN
+F1 "VBUS-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -533,11 +533,11 @@ X VBUS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# portable-light-rescue_VDC-power
+# VDC-power
 #
-DEF portable-light-rescue_VDC-power #PWR 0 0 Y Y 1 F P
+DEF VDC-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -100 50 H I C CNN
-F1 "portable-light-rescue_VDC-power" 0 250 50 H V C CNN
+F1 "VDC-power" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

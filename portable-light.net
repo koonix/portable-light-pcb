@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /mnt/drives/xlib/ehsan-files/Projects/General-Projects/portable-light/hardware/portable-light/portable-light.sch)
-    (date "Sat 25 Jul 2020 08:42:20 PM +0430")
+    (date "Sun 26 Jul 2020 10:48:06 AM +0430")
     (tool "Eeschema 5.1.6-c6e7f7d~87~ubuntu20.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
