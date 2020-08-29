@@ -615,7 +615,7 @@ Wire Wire Line
 	8550 4150 8700 4150
 Wire Wire Line
 	7950 4350 7950 4150
-Text Notes 8700 4757 2    157  ~ 31
+Text Notes 5900 3200 2    157  ~ 31
 Charge pump
 Wire Wire Line
 	7950 4150 7850 4150

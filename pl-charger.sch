@@ -50,10 +50,6 @@ Wire Wire Line
 	3300 3500 3250 3500
 Wire Wire Line
 	2850 3500 3050 3500
-Text Label 2850 3500 2    50   ~ 0
-chrg_out
-Text Label 2850 3900 2    50   ~ 0
-chrg_in
 $Comp
 L portable-light-rescue:VDC-power #PWR0177
 U 1 1 5F378F81
@@ -80,8 +76,6 @@ F 3 "~" H 7750 3600 50  0001 C CNN
 	1    7750 3600
 	0    -1   -1   0   
 $EndComp
-Text Label 7900 3600 0    50   ~ 0
-acpr_in
 Wire Wire Line
 	7850 3600 7900 3600
 $Comp
@@ -145,8 +139,6 @@ F 3 "~" H 3850 3700 50  0001 C CNN
 	1    3850 3700
 	0    -1   -1   0   
 $EndComp
-Text Label 2850 3700 2    50   ~ 0
-fault_in
 Wire Wire Line
 	3500 3500 3650 3500
 Connection ~ 3650 3500
@@ -273,10 +265,6 @@ Wire Wire Line
 	7350 4300 7350 4550
 Wire Wire Line
 	7350 4550 6900 4550
-Text Label 6900 4450 2    50   ~ 0
-prog_pulldown
-Text Label 6900 4550 2    50   ~ 0
-prog_pullup
 Wire Wire Line
 	8200 4700 8200 4650
 Text Notes 4600 2850 0    157  ~ 31
@@ -369,4 +357,16 @@ F 3 "~" H 3650 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3650 3050 3650 3000
+Text HLabel 6900 4450 0    39   Input ~ 0
+prog_pulldown(enable)
+Text HLabel 6900 4550 0    39   Input ~ 0
+prog_pullup(disable)
+Text HLabel 2850 3900 0    39   Input ~ 0
+chrg_out
+Text HLabel 2850 3500 0    39   Input ~ 0
+chrg_pulldown_or_float_in
+Text HLabel 7900 3600 2    39   Input ~ 0
+acpr_out
+Text HLabel 2850 3700 0    39   Input ~ 0
+fault_out
 $EndSCHEMATC
