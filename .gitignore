@@ -1,9 +1,12 @@
-*.pdf
-*.csv
-*.xml
 *autosave*
 *fp-info*
 *-bak
 *-cache.lib
+*-rescue.dcm
+*-rescue.lib
+sym-lib-table
+*.pdf
+*.csv
+*.xml
 plot/*
 temp/*
