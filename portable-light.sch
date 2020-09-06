@@ -14,432 +14,550 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L portable-light-rescue:GNDPWR-power #PWR030
+L portable-light-rescue:GNDPWR-power #PWR?
 U 1 1 5F378F79
-P -4500 1400
-F 0 "#PWR030" H -4500 1200 50  0001 C CNN
-F 1 "GNDPWR" H -4500 1250 50  0000 C CNN
-F 2 "" H -4500 1350 50  0001 C CNN
-F 3 "" H -4500 1350 50  0001 C CNN
-	1    -4500 1400
+P 900 1800
+F 0 "#PWR?" H 900 1600 50  0001 C CNN
+F 1 "GNDPWR" H 900 1650 50  0000 C CNN
+F 2 "" H 900 1750 50  0001 C CNN
+F 3 "" H 900 1750 50  0001 C CNN
+	1    900  1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-4500 1400 -4500 1300
+	900  1800 900  1700
 $Comp
-L portable-light-rescue:+BATT-power #PWR029
+L portable-light-rescue:+BATT-power #PWR?
 U 1 1 5F173F6B
-P -4500 900
-F 0 "#PWR029" H -4500 750 50  0001 C CNN
-F 1 "+BATT" H -4485 1073 50  0000 C CNN
-F 2 "" H -4500 900 50  0001 C CNN
-F 3 "" H -4500 900 50  0001 C CNN
-	1    -4500 900 
+P 900 1300
+F 0 "#PWR?" H 900 1150 50  0001 C CNN
+F 1 "+BATT" H 915 1473 50  0000 C CNN
+F 2 "" H 900 1300 50  0001 C CNN
+F 3 "" H 900 1300 50  0001 C CNN
+	1    900  1300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-4500 1000 -4500 900 
+	900  1400 900  1300
 $Comp
-L portable-light-rescue:Battery_Cell-Device BT1
+L portable-light-rescue:Battery_Cell-Device BT?
 U 1 1 5F378F78
-P -4500 1200
-F 0 "BT1" H -4382 1296 50  0000 L CNN
-F 1 "Battery_Cell" H -4382 1205 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V -4500 1260 50  0001 C CNN
-F 3 "~" V -4500 1260 50  0001 C CNN
-	1    -4500 1200
+P 900 1600
+F 0 "BT?" H 1018 1696 50  0000 L CNN
+F 1 "Battery_Cell" H 1018 1605 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 900 1660 50  0001 C CNN
+F 3 "~" V 900 1660 50  0001 C CNN
+	1    900  1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-2300 1350 -1950 1350
-Connection ~ -2300 1350
+	3100 1750 3450 1750
+Connection ~ 3100 1750
 Wire Wire Line
-	-2650 1350 -2300 1350
+	2750 1750 3100 1750
 Wire Wire Line
-	-3350 1250 -3350 1200
+	2050 1650 2050 1600
 $Comp
-L portable-light-rescue:GNDPWR-power #PWR015
+L portable-light-rescue:GNDPWR-power #PWR?
 U 1 1 5F376A87
-P -3350 1250
-F 0 "#PWR015" H -3350 1050 50  0001 C CNN
-F 1 "GNDPWR" H -3350 1100 50  0000 C CNN
-F 2 "" H -3350 1200 50  0001 C CNN
-F 3 "" H -3350 1200 50  0001 C CNN
-	1    -3350 1250
+P 2050 1650
+F 0 "#PWR?" H 2050 1450 50  0001 C CNN
+F 1 "GNDPWR" H 2050 1450 50  0000 C CNN
+F 2 "" H 2050 1600 50  0001 C CNN
+F 3 "" H 2050 1600 50  0001 C CNN
+	1    2050 1650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-3650 900  -3750 900 
-Wire Wire Line
-	-2300 1000 -2300 1350
+	3100 1400 3100 1750
 $Comp
-L portable-light-rescue:VBUS-power #PWR023
+L portable-light-rescue:VBUS-power #PWR?
 U 1 1 5F376A3C
-P -2300 1000
-F 0 "#PWR023" H -2300 850 50  0001 C CNN
-F 1 "VBUS" H -2285 1173 50  0000 C CNN
-F 2 "" H -2300 1000 50  0001 C CNN
-F 3 "" H -2300 1000 50  0001 C CNN
-	1    -2300 1000
+P 3100 1400
+F 0 "#PWR?" H 3100 1250 50  0001 C CNN
+F 1 "VBUS" H 3115 1573 50  0000 C CNN
+F 2 "" H 3100 1400 50  0001 C CNN
+F 3 "" H 3100 1400 50  0001 C CNN
+	1    3100 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-1950 1300 -1950 1350
+	3450 1700 3450 1750
 $Comp
-L portable-light-rescue:1N5819-Diode D8
+L portable-light-rescue:1N5819-Diode D?
 U 1 1 5F376A3B
-P -2650 1150
-F 0 "D8" H -2650 933 50  0000 C CNN
-F 1 "1N5819" H -2650 1024 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal" H -2650 975 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H -2650 1150 50  0001 C CNN
-	1    -2650 1150
+P 2750 1550
+F 0 "D?" H 2750 1333 50  0000 C CNN
+F 1 "1N5819" H 2750 1424 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal" H 2750 1375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 2750 1550 50  0001 C CNN
+	1    2750 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
-L portable-light-rescue:1N5819-Diode D9
+L portable-light-rescue:1N5819-Diode D?
 U 1 1 5F376A3A
-P -1950 1150
-F 0 "D9" H -1950 1350 50  0000 C CNN
-F 1 "1N5819" H -1950 1250 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal" H -1950 975 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H -1950 1150 50  0001 C CNN
-	1    -1950 1150
+P 3450 1550
+F 0 "D?" H 3450 1750 50  0000 C CNN
+F 1 "1N5819" H 3450 1650 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal" H 3450 1375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 3450 1550 50  0001 C CNN
+	1    3450 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
-L portable-light-rescue:+BATT-power #PWR025
+L portable-light-rescue:+BATT-power #PWR?
 U 1 1 5F376A38
-P -1950 1000
-F 0 "#PWR025" H -1950 850 50  0001 C CNN
-F 1 "+BATT" H -1935 1173 50  0000 C CNN
-F 2 "" H -1950 1000 50  0001 C CNN
-F 3 "" H -1950 1000 50  0001 C CNN
-	1    -1950 1000
+P 3450 1400
+F 0 "#PWR?" H 3450 1250 50  0001 C CNN
+F 1 "+BATT" H 3465 1573 50  0000 C CNN
+F 2 "" H 3450 1400 50  0001 C CNN
+F 3 "" H 3450 1400 50  0001 C CNN
+	1    3450 1400
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:C_Small-Device C21
+L portable-light-rescue:C_Small-Device C?
 U 1 1 5F38E944
-P -2250 2200
-F 0 "C21" H -2200 2300 50  0000 L CNN
-F 1 "10u" V -2400 2150 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm" H -2250 2200 50  0001 C CNN
-F 3 "~" H -2250 2200 50  0001 C CNN
-	1    -2250 2200
+P 3150 2600
+F 0 "C?" H 3200 2700 50  0000 L CNN
+F 1 "10u" V 3000 2550 50  0000 L CNN
+F 2 "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm" H 3150 2600 50  0001 C CNN
+F 3 "~" H 3150 2600 50  0001 C CNN
+	1    3150 2600
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:VDC-power #PWR034
+L portable-light-rescue:VDC-power #PWR?
 U 1 1 5F376A76
-P -2250 1950
-F 0 "#PWR034" H -2250 1850 50  0001 C CNN
-F 1 "VDC" H -2235 2123 50  0000 C CNN
-F 2 "" H -2250 1950 50  0001 C CNN
-F 3 "" H -2250 1950 50  0001 C CNN
-	1    -2250 1950
+P 3150 2350
+F 0 "#PWR?" H 3150 2250 50  0001 C CNN
+F 1 "VDC" H 3165 2523 50  0000 C CNN
+F 2 "" H 3150 2350 50  0001 C CNN
+F 3 "" H 3150 2350 50  0001 C CNN
+	1    3150 2350
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:GNDPWR-power #PWR035
+L portable-light-rescue:GNDPWR-power #PWR?
 U 1 1 5F376A77
-P -2250 2450
-F 0 "#PWR035" H -2250 2250 50  0001 C CNN
-F 1 "GNDPWR" H -2250 2300 50  0000 C CNN
-F 2 "" H -2250 2400 50  0001 C CNN
-F 3 "" H -2250 2400 50  0001 C CNN
-	1    -2250 2450
+P 3150 2850
+F 0 "#PWR?" H 3150 2650 50  0001 C CNN
+F 1 "GNDPWR" H 3150 2700 50  0000 C CNN
+F 2 "" H 3150 2800 50  0001 C CNN
+F 3 "" H 3150 2800 50  0001 C CNN
+	1    3150 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:C_Small-Device C27
+L portable-light-rescue:C_Small-Device C?
 U 1 1 5F377895
-P -1300 2100
-F 0 "C27" H -1500 2100 50  0000 L CNN
-F 1 "330n" V -1200 2000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -1300 2100 50  0001 C CNN
-F 3 "~" H -1300 2100 50  0001 C CNN
-	1    -1300 2100
+P 4100 2500
+F 0 "C?" H 3900 2500 50  0000 L CNN
+F 1 "330n" V 4200 2400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4100 2500 50  0001 C CNN
+F 3 "~" H 4100 2500 50  0001 C CNN
+	1    4100 2500
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:R_Small-Device R26
+L portable-light-rescue:R_Small-Device R?
 U 1 1 5F377896
-P -1300 2350
-F 0 "R26" H -1500 2350 50  0000 L CNN
-F 1 "1R60" V -1200 2250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H -1300 2350 50  0001 C CNN
-F 3 "~" H -1300 2350 50  0001 C CNN
-	1    -1300 2350
+P 4100 2750
+F 0 "R?" H 3900 2750 50  0000 L CNN
+F 1 "1R60" V 4200 2650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4100 2750 50  0001 C CNN
+F 3 "~" H 4100 2750 50  0001 C CNN
+	1    4100 2750
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:GNDPWR-power #PWR039
+L portable-light-rescue:GNDPWR-power #PWR?
 U 1 1 5F412CDB
-P -1300 2450
-F 0 "#PWR039" H -1300 2250 50  0001 C CNN
-F 1 "GNDPWR" H -1300 2300 50  0000 C CNN
-F 2 "" H -1300 2400 50  0001 C CNN
-F 3 "" H -1300 2400 50  0001 C CNN
-	1    -1300 2450
+P 4100 2850
+F 0 "#PWR?" H 4100 2650 50  0001 C CNN
+F 1 "GNDPWR" H 4100 2700 50  0000 C CNN
+F 2 "" H 4100 2800 50  0001 C CNN
+F 3 "" H 4100 2800 50  0001 C CNN
+	1    4100 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-1300 2200 -1300 2250
+	4100 2600 4100 2650
 $Comp
-L portable-light-rescue:+BATT-power #PWR038
+L portable-light-rescue:+BATT-power #PWR?
 U 1 1 5F377899
-P -1300 1950
-F 0 "#PWR038" H -1300 1800 50  0001 C CNN
-F 1 "+BATT" H -1285 2123 50  0000 C CNN
-F 2 "" H -1300 1950 50  0001 C CNN
-F 3 "" H -1300 1950 50  0001 C CNN
-	1    -1300 1950
+P 4100 2350
+F 0 "#PWR?" H 4100 2200 50  0001 C CNN
+F 1 "+BATT" H 4115 2523 50  0000 C CNN
+F 2 "" H 4100 2350 50  0001 C CNN
+F 3 "" H 4100 2350 50  0001 C CNN
+	1    4100 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-1300 2000 -1300 1950
+	4100 2400 4100 2350
 Wire Wire Line
-	-2250 1950 -2250 2100
+	3150 2350 3150 2500
 Wire Wire Line
-	-2250 2300 -2250 2450
+	3150 2700 3150 2850
 $Comp
-L portable-light-rescue:Conn_01x02-Connector_Generic J3
+L portable-light-rescue:Conn_01x02-Connector_Generic J?
 U 1 1 5F22ABC0
-P -1200 1300
-F 0 "J3" V -1300 1250 50  0000 L CNN
-F 1 "Charger" V -1100 1050 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H -1200 1300 50  0001 C CNN
-F 3 "~" H -1200 1300 50  0001 C CNN
-	1    -1200 1300
+P 4200 1700
+F 0 "J?" V 4100 1650 50  0000 L CNN
+F 1 "Charger" V 4300 1450 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4200 1700 50  0001 C CNN
+F 3 "~" H 4200 1700 50  0001 C CNN
+	1    4200 1700
 	0    1    1    0   
 $EndComp
 $Comp
-L portable-light-rescue:GNDPWR-power #PWR026
+L portable-light-rescue:GNDPWR-power #PWR?
 U 1 1 5F378F98
-P -1600 1100
-F 0 "#PWR026" H -1600 900 50  0001 C CNN
-F 1 "GNDPWR" H -1600 950 50  0000 C CNN
-F 2 "" H -1600 1050 50  0001 C CNN
-F 3 "" H -1600 1050 50  0001 C CNN
-	1    -1600 1100
+P 3800 1500
+F 0 "#PWR?" H 3800 1300 50  0001 C CNN
+F 1 "GNDPWR" H 3800 1350 50  0000 C CNN
+F 2 "" H 3800 1450 50  0001 C CNN
+F 3 "" H 3800 1450 50  0001 C CNN
+	1    3800 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-1600 1100 -1600 1050
+	3800 1500 3800 1450
 Wire Wire Line
-	-1600 1050 -1300 1050
+	3800 1450 4100 1450
 Wire Wire Line
-	-1300 1050 -1300 1100
+	4100 1450 4100 1500
 $Comp
-L portable-light-rescue:VDC-power #PWR028
+L portable-light-rescue:VDC-power #PWR?
 U 1 1 5F376A63
-P -1200 950
-F 0 "#PWR028" H -1200 850 50  0001 C CNN
-F 1 "VDC" H -1185 1123 50  0000 C CNN
-F 2 "" H -1200 950 50  0001 C CNN
-F 3 "" H -1200 950 50  0001 C CNN
-	1    -1200 950 
+P 4200 1350
+F 0 "#PWR?" H 4200 1250 50  0001 C CNN
+F 1 "VDC" H 4215 1523 50  0000 C CNN
+F 2 "" H 4200 1350 50  0001 C CNN
+F 3 "" H 4200 1350 50  0001 C CNN
+	1    4200 1350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-1200 950  -1200 1100
+	4200 1350 4200 1500
 $Comp
-L portable-light-rescue:Net-Tie_2-Device NT1
+L portable-light-rescue:Net-Tie_2-Device NT?
 U 1 1 5F376A78
-P -4200 2050
-F 0 "NT1" H -4200 1869 50  0000 C CNN
-F 1 "Net-Tie_2" H -4200 1960 50  0000 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H -4200 2050 50  0001 C CNN
-F 3 "~" H -4200 2050 50  0001 C CNN
-	1    -4200 2050
+P 1200 2450
+F 0 "NT?" H 1200 2269 50  0000 C CNN
+F 1 "Net-Tie_2" H 1200 2360 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 1200 2450 50  0001 C CNN
+F 3 "~" H 1200 2450 50  0001 C CNN
+	1    1200 2450
 	-1   0    0    1   
 $EndComp
 $Comp
-L portable-light-rescue:Net-Tie_2-Device NT2
+L portable-light-rescue:Net-Tie_2-Device NT?
 U 1 1 5F54FF0B
-P -3250 2050
-F 0 "NT2" H -3250 1869 50  0000 C CNN
-F 1 "Net-Tie_2" H -3250 1960 50  0000 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H -3250 2050 50  0001 C CNN
-F 3 "~" H -3250 2050 50  0001 C CNN
-	1    -3250 2050
+P 2150 2450
+F 0 "NT?" H 2150 2269 50  0000 C CNN
+F 1 "Net-Tie_2" H 2150 2360 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 2150 2450 50  0001 C CNN
+F 3 "~" H 2150 2450 50  0001 C CNN
+	1    2150 2450
 	-1   0    0    1   
 $EndComp
 $Comp
-L portable-light-rescue:GNDPWR-power #PWR011
+L portable-light-rescue:GNDPWR-power #PWR?
 U 1 1 5F3B0EC4
-P -4350 2100
-F 0 "#PWR011" H -4350 1900 50  0001 C CNN
-F 1 "GNDPWR" H -4350 1950 50  0000 C CNN
-F 2 "" H -4350 2050 50  0001 C CNN
-F 3 "" H -4350 2050 50  0001 C CNN
-	1    -4350 2100
+P 1050 2500
+F 0 "#PWR?" H 1050 2300 50  0001 C CNN
+F 1 "GNDPWR" H 1050 2350 50  0000 C CNN
+F 2 "" H 1050 2450 50  0001 C CNN
+F 3 "" H 1050 2450 50  0001 C CNN
+	1    1050 2500
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:GND-power #PWR014
+L portable-light-rescue:GND-power #PWR?
 U 1 1 5F377892
-P -4050 2100
-F 0 "#PWR014" H -4050 1850 50  0001 C CNN
-F 1 "GND" H -4045 1927 50  0000 C CNN
-F 2 "" H -4050 2100 50  0001 C CNN
-F 3 "" H -4050 2100 50  0001 C CNN
-	1    -4050 2100
+P 1350 2500
+F 0 "#PWR?" H 1350 2250 50  0001 C CNN
+F 1 "GND" H 1355 2327 50  0000 C CNN
+F 2 "" H 1350 2500 50  0001 C CNN
+F 3 "" H 1350 2500 50  0001 C CNN
+	1    1350 2500
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:GND-power #PWR022
+L portable-light-rescue:GND-power #PWR?
 U 1 1 5F3B592F
-P -3100 2100
-F 0 "#PWR022" H -3100 1850 50  0001 C CNN
-F 1 "GND" H -3095 1927 50  0000 C CNN
-F 2 "" H -3100 2100 50  0001 C CNN
-F 3 "" H -3100 2100 50  0001 C CNN
-	1    -3100 2100
+P 2300 2500
+F 0 "#PWR?" H 2300 2250 50  0001 C CNN
+F 1 "GND" H 2305 2327 50  0000 C CNN
+F 2 "" H 2300 2500 50  0001 C CNN
+F 3 "" H 2300 2500 50  0001 C CNN
+	1    2300 2500
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:GNDA-power #PWR019
+L portable-light-rescue:GNDA-power #PWR?
 U 1 1 5F376A7D
-P -3400 2100
-F 0 "#PWR019" H -3400 1850 50  0001 C CNN
-F 1 "GNDA" H -3395 1927 50  0000 C CNN
-F 2 "" H -3400 2100 50  0001 C CNN
-F 3 "" H -3400 2100 50  0001 C CNN
-	1    -3400 2100
+P 2000 2500
+F 0 "#PWR?" H 2000 2250 50  0001 C CNN
+F 1 "GNDA" H 2005 2327 50  0000 C CNN
+F 2 "" H 2000 2500 50  0001 C CNN
+F 3 "" H 2000 2500 50  0001 C CNN
+	1    2000 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-3400 2100 -3400 2050
+	2000 2500 2000 2450
 Wire Wire Line
-	-3400 2050 -3350 2050
+	2000 2450 2050 2450
 Wire Wire Line
-	-3150 2050 -3100 2050
+	2250 2450 2300 2450
 Wire Wire Line
-	-3100 2050 -3100 2100
+	2300 2450 2300 2500
 Wire Wire Line
-	-4100 2050 -4050 2050
+	1300 2450 1350 2450
 Wire Wire Line
-	-4050 2050 -4050 2100
+	1350 2450 1350 2500
 Wire Wire Line
-	-4300 2050 -4350 2050
+	1100 2450 1050 2450
 Wire Wire Line
-	-4350 2050 -4350 2100
+	1050 2450 1050 2500
 Wire Wire Line
-	-3750 900  -3750 800 
-Text Notes 7100 6950 0    157  ~ 31
+	1500 1300 1500 1200
+Text Notes 7100 7000 0    157  ~ 31
 Power
 Wire Wire Line
-	-2650 1300 -2650 1350
+	2750 1700 2750 1750
 Wire Wire Line
-	-2650 900  -2650 1000
+	2750 1300 2750 1400
 Wire Wire Line
-	-2900 1300 -2900 1250
+	2450 1700 2450 1650
 $Comp
-L portable-light-rescue:GNDPWR-power #PWR017
+L portable-light-rescue:GNDPWR-power #PWR?
 U 1 1 5F4FDFDA
-P -2900 1300
-F 0 "#PWR017" H -2900 1100 50  0001 C CNN
-F 1 "GNDPWR" H -2900 1150 50  0000 C CNN
-F 2 "" H -2900 1250 50  0001 C CNN
-F 3 "" H -2900 1250 50  0001 C CNN
-	1    -2900 1300
+P 2450 1700
+F 0 "#PWR?" H 2450 1500 50  0001 C CNN
+F 1 "GNDPWR" H 2450 1550 50  0000 C CNN
+F 2 "" H 2450 1650 50  0001 C CNN
+F 3 "" H 2450 1650 50  0001 C CNN
+	1    2450 1700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-2900 1050 -2900 900 
+	2450 1450 2450 1300
 $Comp
-L portable-light-rescue:C_Small-Device C17
+L portable-light-rescue:C_Small-Device C?
 U 1 1 5F54FEFC
-P -2900 1150
-F 0 "C17" H -3000 1250 50  0000 L CNN
-F 1 "100n" H -3000 1050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -2900 1150 50  0001 C CNN
-F 3 "~" H -2900 1150 50  0001 C CNN
-	1    -2900 1150
+P 2450 1550
+F 0 "C?" H 2500 1650 50  0000 L CNN
+F 1 "100n" H 2200 1450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2450 1550 50  0001 C CNN
+F 3 "~" H 2450 1550 50  0001 C CNN
+	1    2450 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:L78L05_SOT89-Regulator_Linear U1
+L portable-light-rescue:L78L05_SOT89-Regulator_Linear U?
 U 1 1 5F54FF2D
-P -3350 900
-F 0 "U1" H -3350 1142 50  0000 C CNN
-F 1 "L78L05_SOT89" H -3350 1051 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3" H -3350 1100 50  0001 C CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H -3350 850 50  0001 C CNN
-	1    -3350 900 
+P 2050 1300
+F 0 "U?" H 2050 1950 50  0000 C CNN
+F 1 "L78L05_SOT89" H 2050 1451 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 2050 1500 50  0001 C CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 2050 1250 50  0001 C CNN
+	1    2050 1300
 	1    0    0    -1  
 $EndComp
-Connection ~ -2900 900 
 Wire Wire Line
-	-2900 900  -2650 900 
-Wire Wire Line
-	-3050 900  -2900 900 
-$Sheet
-S 8450 4800 1000 1000
-U 5F34BD03
-F0 "Charge pump" 157
-F1 "pl-chargepump.sch" 157
-$EndSheet
-$Sheet
-S 7950 1700 1000 1000
-U 5F37658B
-F0 "Buck converter" 157
-F1 "pl-buckconverter.sch" 157
-$EndSheet
-$Sheet
-S 4950 2800 1250 1850
-U 5F378869
-F0 "Microcontroller" 157
-F1 "pl-microcontroller.sch" 157
-F2 "charger_prog_pullup(disable)" I L 4950 4150 39 
-F3 "charger_prog_pulldown(enable)" I L 4950 4050 39 
-F4 "high_side_mosfet_oc2a" I R 6200 3550 39 
-F5 "low_side_mosfet_oc2b" I R 6200 3650 39 
-F6 "charger_acpr_in" I L 4950 4550 39 
-F7 "charger_fault_in" I L 4950 4450 39 
-F8 "charger_chrg_pulldown_or_float_out" I L 4950 4250 39 
-F9 "charger_chrg_in" I L 4950 4350 39 
-F10 "pump_power" I R 6200 3100 39 
-F11 "pump_clka_oc1a" I R 6200 2900 39 
-F12 "pump_clkb_oc1b" I R 6200 3000 39 
-F13 "pump_voltage_sense" I R 6200 3200 39 
-F14 "buck_voltage_sense" I R 6200 3750 39 
-$EndSheet
+	2350 1300 2450 1300
 $Comp
 L power:+8V #PWR?
 U 1 1 5F4F4B31
-P -3750 800
-F 0 "#PWR?" H -3750 650 50  0001 C CNN
-F 1 "+8V" H -3735 973 50  0000 C CNN
-F 2 "" H -3750 800 50  0001 C CNN
-F 3 "" H -3750 800 50  0001 C CNN
-	1    -3750 800 
+P 1500 1200
+F 0 "#PWR?" H 1500 1050 50  0001 C CNN
+F 1 "+8V" H 1515 1373 50  0000 C CNN
+F 2 "" H 1500 1200 50  0001 C CNN
+F 3 "" H 1500 1200 50  0001 C CNN
+	1    1500 1200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3950 5300 2950 5300
+Wire Wire Line
+	2950 5200 3950 5200
+Wire Wire Line
+	3950 5100 2950 5100
+Wire Wire Line
+	2950 5000 3950 5000
+Wire Wire Line
+	3950 4900 2950 4900
+Wire Wire Line
+	2950 4800 3950 4800
+Wire Wire Line
+	5200 3750 6650 3750
+Wire Wire Line
+	6650 3850 5200 3850
+Wire Wire Line
+	5200 3950 6650 3950
+Wire Wire Line
+	5200 3650 6650 3650
+$Comp
+L portable-light-rescue:GNDPWR-power #PWR?
+U 1 1 60438762
+P 9050 5750
+AR Path="/5F37658B/60438762" Ref="#PWR?"  Part="1" 
+AR Path="/60438762" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9050 5550 50  0001 C CNN
+F 1 "GNDPWR" H 9050 5600 50  0000 C CNN
+F 2 "" H 9050 5700 50  0001 C CNN
+F 3 "" H 9050 5700 50  0001 C CNN
+	1    9050 5750
+	0    -1   -1   0   
+$EndComp
 $Sheet
-S 2950 3950 1000 1000
+S 1950 4700 1000 1000
 U 5F377120
 F0 "Charger" 157
 F1 "pl-charger.sch" 157
-F2 "prog_pulldown(enable)" I R 3950 4050 39 
-F3 "prog_pullup(disable)" I R 3950 4150 39 
-F4 "chrg_out" I R 3950 4350 39 
-F5 "chrg_pulldown_or_float_in" I R 3950 4250 39 
-F6 "acpr_out" I R 3950 4450 39 
-F7 "fault_out" I R 3950 4550 39 
+F2 "prog_enable_charging" I R 2950 4900 39 
+F3 "prog_disable_charging" I R 2950 4800 39 
+F4 "chrg_out" O R 2950 5100 39 
+F5 "chrg_pulldown_or_float_in" I R 2950 5000 39 
+F6 "acpr_out" O R 2950 5300 39 
+F7 "fault_out" O R 2950 5200 39 
 $EndSheet
 Wire Wire Line
-	3950 4050 4950 4050
+	5950 4200 5950 4950
 Wire Wire Line
-	4950 4150 3950 4150
+	5950 4950 7600 4950
 Wire Wire Line
-	3950 4250 4950 4250
+	5200 4200 5950 4200
 Wire Wire Line
-	4950 4350 3950 4350
+	5200 4300 6050 4300
 Wire Wire Line
-	3950 4450 4950 4450
+	6050 4300 6050 5050
 Wire Wire Line
-	4950 4550 3950 4550
+	6050 5050 7600 5050
+Wire Wire Line
+	5200 4400 6150 4400
+Wire Wire Line
+	6150 4400 6150 5150
+Wire Wire Line
+	6150 5150 7600 5150
+Wire Wire Line
+	5200 4500 6250 4500
+Wire Wire Line
+	6250 4500 6250 5250
+Wire Wire Line
+	6250 5250 7600 5250
+Wire Wire Line
+	5200 4600 6350 4600
+Wire Wire Line
+	6350 4600 6350 5350
+Wire Wire Line
+	6350 5350 7600 5350
+$Comp
+L portable-light-rescue:LED-Device J?
+U 1 1 60438769
+P 8850 5750
+AR Path="/5F37658B/60438769" Ref="J?"  Part="1" 
+AR Path="/60438769" Ref="J?"  Part="1" 
+F 0 "J?" V 8889 5632 50  0000 R CNN
+F 1 "LOAD" V 8798 5632 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8850 5750 50  0001 C CNN
+F 3 "~" H 8850 5750 50  0001 C CNN
+	1    8850 5750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9000 5750 9050 5750
+Wire Wire Line
+	8700 5750 8600 5750
+$Comp
+L portable-light-rescue:1N5819-Diode D?
+U 1 1 5F785836
+P 2050 900
+F 0 "D?" H 1900 800 50  0000 C CNN
+F 1 "1N5819" H 2050 1050 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal" H 2050 725 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 2050 900 50  0001 C CNN
+	1    2050 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 900  2450 900 
+Wire Wire Line
+	2450 900  2450 1300
+Connection ~ 2450 1300
+Wire Wire Line
+	1500 1300 1650 1300
+Wire Wire Line
+	1900 900  1650 900 
+Wire Wire Line
+	1650 900  1650 1300
+Connection ~ 1650 1300
+Wire Wire Line
+	1650 1300 1750 1300
+Wire Wire Line
+	2450 1300 2750 1300
+$Comp
+L power:+8V #PWR?
+U 1 1 5F7F9638
+P 6450 3150
+F 0 "#PWR?" H 6450 3000 50  0001 C CNN
+F 1 "+8V" H 6465 3323 50  0000 C CNN
+F 2 "" H 6450 3150 50  0001 C CNN
+F 3 "" H 6450 3150 50  0001 C CNN
+	1    6450 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3150 6450 3300
+Wire Wire Line
+	6450 3300 6650 3300
+$Sheet
+S 3950 3550 1250 1850
+U 5F378869
+F0 "Controller" 157
+F1 "pl-controller.sch" 157
+F2 "charger_acpr_in" I L 3950 5300 39 
+F3 "charger_fault_in" I L 3950 5200 39 
+F4 "charger_chrg_pulldown_or_float_out" O L 3950 5000 39 
+F5 "charger_chrg_in" I L 3950 5100 39 
+F6 "pump_vin" O R 5200 3850 39 
+F7 "pump_vsense" I R 5200 3950 39 
+F8 "charger_prog_disable_charging" O L 3950 4900 39 
+F9 "charger_prog_enable_charging" O L 3950 4800 39 
+F10 "pump_clka" O R 5200 3750 39 
+F11 "pump_clkb" O R 5200 3650 39 
+F12 "buck_vsense" I R 5200 4600 39 
+F13 "buck_low_mos_low_bjt" O R 5200 4500 39 
+F14 "buck_low_mos_high_bjt" O R 5200 4400 39 
+F15 "buck_high_mos_low_bjt" O R 5200 4300 39 
+F16 "buck_high_mos_high_bjt" O R 5200 4200 39 
+$EndSheet
+$Sheet
+S 7600 4850 1000 1000
+U 5F37658B
+F0 "Buck converter" 157
+F1 "pl-buck_converter.sch" 157
+F2 "high_mos_high_bjt" I L 7600 4950 39 
+F3 "high_mos_low_bjt" I L 7600 5050 39 
+F4 "low_mos_high_bjt" I L 7600 5150 39 
+F5 "low_mos_low_bjt" I L 7600 5250 39 
+F6 "vout" O R 8600 5750 39 
+F7 "vsense" O L 7600 5350 39 
+$EndSheet
+$Sheet
+S 6650 3100 1000 1000
+U 5F34BD03
+F0 "Charge pump" 157
+F1 "pl-charge_pump.sch" 157
+F2 "vin" I L 6650 3850 39 
+F3 "clka" I L 6650 3750 39 
+F4 "clkb" I L 6650 3650 39 
+F5 "vout" O L 6650 3300 39 
+F6 "vsense" O L 6650 3950 39 
+$EndSheet
 $EndSCHEMATC

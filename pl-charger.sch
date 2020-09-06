@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 2 5
 Title "Project \"Portable light\" hardware schematics"
 Date "2020-07-23"
 Rev "1.0.0"
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L portable-light-rescue:R_Small-Device R79
+L portable-light-rescue:R_Small-Device R?
 U 1 1 5F378F6B
 P 3150 3500
-F 0 "R79" V 3050 3400 50  0000 L CNN
+F 0 "R?" V 3050 3400 50  0000 L CNN
 F 1 "1K" V 3050 3550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3150 3500 50  0001 C CNN
 F 3 "~" H 3150 3500 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "~" H 3150 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L portable-light-rescue:R_Small-Device R80
+L portable-light-rescue:R_Small-Device R?
 U 1 1 5F54FED1
 P 3400 3500
-F 0 "R80" V 3300 3350 50  0000 L CNN
+F 0 "R?" V 3300 3350 50  0000 L CNN
 F 1 "1K" V 3300 3500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3400 3500 50  0001 C CNN
 F 3 "~" H 3400 3500 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "~" H 3400 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L portable-light-rescue:VBUS-power #PWR0176
+L portable-light-rescue:VBUS-power #PWR?
 U 1 1 5F15EA3E
 P 3650 2700
-F 0 "#PWR0176" H 3650 2550 50  0001 C CNN
+F 0 "#PWR?" H 3650 2550 50  0001 C CNN
 F 1 "VBUS" H 3665 2873 50  0000 C CNN
 F 2 "" H 3650 2700 50  0001 C CNN
 F 3 "" H 3650 2700 50  0001 C CNN
@@ -51,10 +51,10 @@ Wire Wire Line
 Wire Wire Line
 	2850 3500 3050 3500
 $Comp
-L portable-light-rescue:VDC-power #PWR0177
+L portable-light-rescue:VDC-power #PWR?
 U 1 1 5F378F81
 P 4250 3400
-F 0 "#PWR0177" H 4250 3300 50  0001 C CNN
+F 0 "#PWR?" H 4250 3300 50  0001 C CNN
 F 1 "VDC" H 4265 3573 50  0000 C CNN
 F 2 "" H 4250 3400 50  0001 C CNN
 F 3 "" H 4250 3400 50  0001 C CNN
@@ -66,44 +66,40 @@ Wire Wire Line
 Wire Wire Line
 	4250 3600 4350 3600
 $Comp
-L portable-light-rescue:R_Small-Device R101
+L portable-light-rescue:R_Small-Device R?
 U 1 1 5F378F82
-P 7750 3600
-F 0 "R101" V 7650 3500 50  0000 L CNN
-F 1 "1K" V 7850 3550 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7750 3600 50  0001 C CNN
-F 3 "~" H 7750 3600 50  0001 C CNN
-	1    7750 3600
+P 7800 3600
+F 0 "R?" V 7700 3500 50  0000 L CNN
+F 1 "1K" V 7900 3550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7800 3600 50  0001 C CNN
+F 3 "~" H 7800 3600 50  0001 C CNN
+	1    7800 3600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7850 3600 7900 3600
+	7900 3600 7950 3600
 $Comp
-L portable-light-rescue:+BATT-power #PWR0178
+L portable-light-rescue:+BATT-power #PWR?
 U 1 1 5F378F86
-P 7450 3400
-F 0 "#PWR0178" H 7450 3250 50  0001 C CNN
-F 1 "+BATT" H 7450 3550 50  0000 C CNN
-F 2 "" H 7450 3400 50  0001 C CNN
-F 3 "" H 7450 3400 50  0001 C CNN
-	1    7450 3400
+P 7500 3400
+F 0 "#PWR?" H 7500 3250 50  0001 C CNN
+F 1 "+BATT" H 7500 3550 50  0000 C CNN
+F 2 "" H 7500 3400 50  0001 C CNN
+F 3 "" H 7500 3400 50  0001 C CNN
+	1    7500 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6950 3700 7450 3700
-Wire Wire Line
 	6950 3800 7200 3800
-Wire Wire Line
-	6950 3600 7650 3600
 Wire Wire Line
 	6950 3500 7050 3500
 Wire Wire Line
 	7050 4000 6950 4000
 $Comp
-L portable-light-rescue:GNDPWR-power #PWR0179
+L portable-light-rescue:GNDPWR-power #PWR?
 U 1 1 5F378F92
 P 7050 4100
-F 0 "#PWR0179" H 7050 3900 50  0001 C CNN
+F 0 "#PWR?" H 7050 3900 50  0001 C CNN
 F 1 "GNDPWR" H 7050 3950 50  0000 C CNN
 F 2 "" H 7050 4050 50  0001 C CNN
 F 3 "" H 7050 4050 50  0001 C CNN
@@ -114,10 +110,10 @@ Wire Wire Line
 	7050 4000 7050 4100
 Connection ~ 7050 4000
 $Comp
-L portable-light-rescue:GNDPWR-power #PWR0180
+L portable-light-rescue:GNDPWR-power #PWR?
 U 1 1 5F54FEEB
 P 4250 4100
-F 0 "#PWR0180" H 4250 3900 50  0001 C CNN
+F 0 "#PWR?" H 4250 3900 50  0001 C CNN
 F 1 "GNDPWR" H 4250 3950 50  0000 C CNN
 F 2 "" H 4250 4050 50  0001 C CNN
 F 3 "" H 4250 4050 50  0001 C CNN
@@ -129,10 +125,10 @@ Wire Wire Line
 Wire Wire Line
 	4250 3900 4250 4100
 $Comp
-L portable-light-rescue:R_Small-Device R83
+L portable-light-rescue:R_Small-Device R?
 U 1 1 5F1F45F5
 P 3850 3700
-F 0 "R83" V 3750 3600 50  0000 L CNN
+F 0 "R?" V 3750 3600 50  0000 L CNN
 F 1 "1K" V 3750 3750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3850 3700 50  0001 C CNN
 F 3 "~" H 3850 3700 50  0001 C CNN
@@ -155,10 +151,10 @@ Wire Wire Line
 Wire Wire Line
 	7050 3500 7050 4000
 $Comp
-L portable-light-rescue:R_Small-Device R100
+L portable-light-rescue:R_Small-Device R?
 U 1 1 5F2794F2
 P 7600 3900
-F 0 "R100" V 7500 3800 50  0000 L CNN
+F 0 "R?" V 7500 3800 50  0000 L CNN
 F 1 "1K" V 7700 3850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7600 3900 50  0001 C CNN
 F 3 "~" H 7600 3900 50  0001 C CNN
@@ -166,21 +162,21 @@ F 3 "~" H 7600 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L portable-light-rescue:R_Small-Device R103
+L portable-light-rescue:R_Small-Device R?
 U 1 1 5F378F9A
 P 7950 3900
-F 0 "R103" V 7850 3800 50  0000 L CNN
-F 1 "475R" V 8050 3800 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7950 3900 50  0001 C CNN
+F 0 "R?" V 7850 3800 50  0000 L CNN
+F 1 "510R" V 8050 3800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7950 3900 50  0001 C CNN
 F 3 "~" H 7950 3900 50  0001 C CNN
 	1    7950 3900
 	0    -1   -1   0   
 $EndComp
 $Comp
-L portable-light-rescue:C_Small-Device C56
+L portable-light-rescue:C_Small-Device C?
 U 1 1 5F378F9E
 P 3900 4150
-F 0 "C56" H 3950 4250 50  0000 L CNN
+F 0 "C?" H 3950 4250 50  0000 L CNN
 F 1 "100n" V 3600 4000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3900 4150 50  0001 C CNN
 F 3 "~" H 3900 4150 50  0001 C CNN
@@ -188,10 +184,10 @@ F 3 "~" H 3900 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:C_Small-Device C54
+L portable-light-rescue:C_Small-Device C?
 U 1 1 5F290824
 P 3700 4150
-F 0 "C54" H 3550 4250 50  0000 L CNN
+F 0 "C?" H 3550 4250 50  0000 L CNN
 F 1 "100n" V 4000 4000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3700 4150 50  0001 C CNN
 F 3 "~" H 3700 4150 50  0001 C CNN
@@ -223,10 +219,10 @@ Connection ~ 3800 4300
 Wire Wire Line
 	3800 4300 3900 4300
 $Comp
-L portable-light-rescue:R_Small-Device R102
+L portable-light-rescue:R_Small-Device R?
 U 1 1 5F317001
 P 7750 4450
-F 0 "R102" V 7650 4350 50  0000 L CNN
+F 0 "R?" V 7650 4350 50  0000 L CNN
 F 1 "10K" V 7850 4400 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7750 4450 50  0001 C CNN
 F 3 "~" H 7750 4450 50  0001 C CNN
@@ -242,18 +238,16 @@ Wire Wire Line
 Wire Wire Line
 	8050 3900 8200 3900
 $Comp
-L portable-light-rescue:R_Small-Device R99
+L portable-light-rescue:R_Small-Device R?
 U 1 1 5F378FB3
-P 7350 4200
-F 0 "R99" H 7400 4250 50  0000 L CNN
-F 1 "1K" H 7400 4150 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7350 4200 50  0001 C CNN
-F 3 "~" H 7350 4200 50  0001 C CNN
-	1    7350 4200
+P 7350 3000
+F 0 "R?" H 7400 3050 50  0000 L CNN
+F 1 "1K" H 7400 2950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7350 3000 50  0001 C CNN
+F 3 "~" H 7350 3000 50  0001 C CNN
+	1    7350 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7350 4100 7350 3900
 Connection ~ 7350 3900
 Wire Wire Line
 	7350 3900 7500 3900
@@ -262,18 +256,14 @@ Wire Wire Line
 Wire Wire Line
 	8200 3900 8200 4250
 Wire Wire Line
-	7350 4300 7350 4550
-Wire Wire Line
-	7350 4550 6900 4550
-Wire Wire Line
 	8200 4700 8200 4650
-Text Notes 4600 2850 0    157  ~ 31
+Text Notes 900  2950 0    157  ~ 31
 Charge controller
 $Comp
-L portable-light-rescue:MMBT3904-Transistor_BJT Q20
+L portable-light-rescue:MMBT3904-Transistor_BJT Q?
 U 1 1 5F378FE9
 P 8100 4450
-F 0 "Q20" H 8290 4496 50  0000 L CNN
+F 0 "Q?" H 8290 4496 50  0000 L CNN
 F 1 "MMBT2222A" H 8290 4405 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8300 4375 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 8100 4450 50  0001 L CNN
@@ -281,10 +271,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 8100 4450 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:LTC1733EMSEPBF-LTC1733 U7
+L portable-light-rescue:LTC1733EMSEPBF-LTC1733 U?
 U 1 1 5F378FEA
 P 4350 3500
-F 0 "U7" H 5650 3865 50  0000 C CNN
+F 0 "U?" H 5650 3865 50  0000 C CNN
 F 1 "LTC1733EMSEPBF" H 5650 3774 50  0000 C CNN
 F 2 "UniX_Generic:MSOP-10_MSE" H 4350 3500 50  0001 L BNN
 F 3 "ltc1733emse#pbf" H 4350 3500 50  0001 L BNN
@@ -293,10 +283,10 @@ F 4 "Linear Technology" H 4350 3500 50  0001 L BNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:GNDPWR-power #PWR0198
+L portable-light-rescue:GNDPWR-power #PWR?
 U 1 1 5F54FEE8
 P 3800 4350
-F 0 "#PWR0198" H 3800 4150 50  0001 C CNN
+F 0 "#PWR?" H 3800 4150 50  0001 C CNN
 F 1 "GNDPWR" H 3800 4200 50  0000 C CNN
 F 2 "" H 3800 4300 50  0001 C CNN
 F 3 "" H 3800 4300 50  0001 C CNN
@@ -304,10 +294,10 @@ F 3 "" H 3800 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:GND-power #PWR0199
+L portable-light-rescue:GND-power #PWR?
 U 1 1 5F351CC6
 P 8200 4700
-F 0 "#PWR0199" H 8200 4450 50  0001 C CNN
+F 0 "#PWR?" H 8200 4450 50  0001 C CNN
 F 1 "GND" H 8205 4527 50  0000 C CNN
 F 2 "" H 8200 4700 50  0001 C CNN
 F 3 "" H 8200 4700 50  0001 C CNN
@@ -319,10 +309,10 @@ Wire Wire Line
 Wire Wire Line
 	3650 2700 3650 2800
 $Comp
-L portable-light-rescue:VDC-power #PWR0209
+L portable-light-rescue:VDC-power #PWR?
 U 1 1 5F378F8D
 P 7200 3400
-F 0 "#PWR0209" H 7200 3300 50  0001 C CNN
+F 0 "#PWR?" H 7200 3300 50  0001 C CNN
 F 1 "VDC" H 7200 3550 50  0000 C CNN
 F 2 "" H 7200 3400 50  0001 C CNN
 F 3 "" H 7200 3400 50  0001 C CNN
@@ -332,7 +322,7 @@ $EndComp
 Wire Wire Line
 	7200 3800 7200 3400
 Wire Wire Line
-	7450 3700 7450 3400
+	7500 3700 7500 3400
 $Comp
 L portable-light-rescue:R_Small-Device R?
 U 1 1 5F65CDB9
@@ -357,16 +347,61 @@ F 3 "~" H 3650 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3650 3050 3650 3000
-Text HLabel 6900 4450 0    39   Input ~ 0
-prog_pulldown(enable)
-Text HLabel 6900 4550 0    39   Input ~ 0
-prog_pullup(disable)
-Text HLabel 2850 3900 0    39   Input ~ 0
+Text HLabel 6900 4450 0    79   Input ~ 0
+prog_enable_charging
+Text HLabel 6750 2600 0    79   Input ~ 0
+prog_disable_charging
+Text HLabel 2850 3900 0    79   Output ~ 0
 chrg_out
-Text HLabel 2850 3500 0    39   Input ~ 0
+Text HLabel 2850 3500 0    79   Input ~ 0
 chrg_pulldown_or_float_in
-Text HLabel 7900 3600 2    39   Input ~ 0
+Text HLabel 7950 3600 2    79   Output ~ 0
 acpr_out
-Text HLabel 2850 3700 0    39   Input ~ 0
+Text HLabel 2850 3700 0    79   Output ~ 0
 fault_out
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5F5A7610
+P 7250 2600
+F 0 "Q?" H 7440 2646 50  0000 L CNN
+F 1 "Q_PNP_BCE" H 7440 2555 50  0000 L CNN
+F 2 "" H 7450 2700 50  0001 C CNN
+F 3 "~" H 7250 2600 50  0001 C CNN
+	1    7250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L portable-light-rescue:+BATT-power #PWR?
+U 1 1 5F5AB657
+P 7350 2400
+F 0 "#PWR?" H 7350 2250 50  0001 C CNN
+F 1 "+BATT" H 7350 2550 50  0000 C CNN
+F 2 "" H 7350 2400 50  0001 C CNN
+F 3 "" H 7350 2400 50  0001 C CNN
+	1    7350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L portable-light-rescue:R_Small-Device R?
+U 1 1 5F5AE6E8
+P 6900 2600
+F 0 "R?" V 7000 2550 50  0000 L CNN
+F 1 "10K" V 6800 2550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6900 2600 50  0001 C CNN
+F 3 "~" H 6900 2600 50  0001 C CNN
+	1    6900 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 2600 7050 2600
+Wire Wire Line
+	6750 2600 6800 2600
+Wire Wire Line
+	6950 3600 7700 3600
+Wire Wire Line
+	6950 3700 7500 3700
+Wire Wire Line
+	7350 2800 7350 2900
+Wire Wire Line
+	7350 3900 7350 3100
 $EndSCHEMATC
