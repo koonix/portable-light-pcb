@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 4 5
 Title "Project \"Portable light\" hardware schematics"
 Date "2020-07-23"
 Rev "1.0.0"
@@ -19,10 +19,10 @@ Connection ~ 9150 4500
 Wire Wire Line
 	9150 4800 9150 4750
 $Comp
-L portable-light-rescue:GNDA-power #PWR?
+L portable-light-rescue:GNDA-power #PWR059
 U 1 1 5F378FB7
 P 9150 4800
-F 0 "#PWR?" H 9150 4550 50  0001 C CNN
+F 0 "#PWR059" H 9150 4550 50  0001 C CNN
 F 1 "GNDA" H 9150 4650 50  0000 C CNN
 F 2 "" H 9150 4800 50  0001 C CNN
 F 3 "" H 9150 4800 50  0001 C CNN
@@ -32,10 +32,10 @@ $EndComp
 Wire Wire Line
 	9150 4450 9150 4500
 $Comp
-L portable-light-rescue:R_Small-Device R?
+L portable-light-rescue:R_Small-Device R39
 U 1 1 5F377888
 P 9150 4650
-F 0 "R?" H 8950 4600 50  0000 L CNN
+F 0 "R39" H 8950 4600 50  0000 L CNN
 F 1 "475R" H 8900 4700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9150 4650 50  0001 C CNN
 F 3 "~" H 9150 4650 50  0001 C CNN
@@ -43,10 +43,10 @@ F 3 "~" H 9150 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L portable-light-rescue:R_Small-Device R?
+L portable-light-rescue:R_Small-Device R38
 U 1 1 5F357597
 P 9150 4350
-F 0 "R?" H 8950 4300 50  0000 L CNN
+F 0 "R38" H 8950 4300 50  0000 L CNN
 F 1 "1K" H 9000 4400 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9150 4350 50  0001 C CNN
 F 3 "~" H 9150 4350 50  0001 C CNN
@@ -59,10 +59,10 @@ Wire Wire Line
 Wire Wire Line
 	8600 4200 8600 4100
 $Comp
-L portable-light-rescue:GNDPWR-power #PWR?
+L portable-light-rescue:GNDPWR-power #PWR058
 U 1 1 5F378F8C
 P 8600 4200
-F 0 "#PWR?" H 8600 4000 50  0001 C CNN
+F 0 "#PWR058" H 8600 4000 50  0001 C CNN
 F 1 "GNDPWR" H 8600 4050 50  0000 C CNN
 F 2 "" H 8600 4150 50  0001 C CNN
 F 3 "" H 8600 4150 50  0001 C CNN
@@ -72,10 +72,10 @@ $EndComp
 Wire Wire Line
 	8350 3800 8600 3800
 $Comp
-L portable-light-rescue:C_Small-Device C?
+L portable-light-rescue:C_Small-Device C18
 U 1 1 5F37785B
 P 8600 4000
-F 0 "C?" H 8692 4046 50  0000 L CNN
+F 0 "C18" H 8692 4046 50  0000 L CNN
 F 1 "10u" H 8692 3955 50  0000 L CNN
 F 2 "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm" H 8600 4000 50  0001 C CNN
 F 3 "~" H 8600 4000 50  0001 C CNN
@@ -83,10 +83,10 @@ F 3 "~" H 8600 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:GNDPWR-power #PWR?
+L portable-light-rescue:GNDPWR-power #PWR057
 U 1 1 5F377859
 P 7750 5250
-F 0 "#PWR?" H 7750 5050 50  0001 C CNN
+F 0 "#PWR057" H 7750 5050 50  0001 C CNN
 F 1 "GNDPWR" H 7750 5100 50  0000 C CNN
 F 2 "" H 7750 5200 50  0001 C CNN
 F 3 "" H 7750 5200 50  0001 C CNN
@@ -96,10 +96,10 @@ $EndComp
 Wire Wire Line
 	7750 3800 8050 3800
 $Comp
-L portable-light-rescue:L-Device L?
+L portable-light-rescue:L-Device L1
 U 1 1 5F378F83
 P 8200 3800
-F 0 "L?" V 8300 3800 50  0000 C CNN
+F 0 "L1" V 8300 3800 50  0000 C CNN
 F 1 "22u" V 8150 3800 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 8200 3800 50  0001 C CNN
 F 3 "~" H 8200 3800 50  0001 C CNN
@@ -109,10 +109,10 @@ $EndComp
 Text Notes 7100 6950 0    157  ~ 31
 Buck converter
 $Comp
-L portable-light-rescue:R_Small-Device R?
+L portable-light-rescue:R_Small-Device R37
 U 1 1 5F3778C2
 P 9150 4100
-F 0 "R?" H 8950 4050 50  0000 L CNN
+F 0 "R37" H 8950 4050 50  0000 L CNN
 F 1 "475R" H 8900 4150 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9150 4100 50  0001 C CNN
 F 3 "~" H 9150 4100 50  0001 C CNN
@@ -126,10 +126,10 @@ Wire Wire Line
 Wire Wire Line
 	7750 5250 7750 5100
 $Comp
-L portable-light-rescue:PHD45N03LTA-PHD45N03LTA Q?
+L portable-light-rescue:PHD45N03LTA-PHD45N03LTA Q20
 U 1 1 5F54FF2A
 P 7750 4800
-F 0 "Q?" H 7903 4846 50  0000 L CNN
+F 0 "Q20" H 7903 4846 50  0000 L CNN
 F 1 "PHD45N03LTA" H 7903 4755 50  0000 L CNN
 F 2 "UniX_Generic:DPAK" H 7750 4800 50  0001 L BNN
 F 3 "NXP" H 7750 4800 50  0001 L BNN
@@ -141,8 +141,8 @@ L power:GND #PWR?
 U 1 1 60316E40
 P 6800 3350
 AR Path="/5F34BD03/60316E40" Ref="#PWR?"  Part="1" 
-AR Path="/5F37658B/60316E40" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6800 3100 50  0001 C CNN
+AR Path="/5F37658B/60316E40" Ref="#PWR053"  Part="1" 
+F 0 "#PWR053" H 6800 3100 50  0001 C CNN
 F 1 "GND" H 6805 3177 50  0000 C CNN
 F 2 "" H 6800 3350 50  0001 C CNN
 F 3 "" H 6800 3350 50  0001 C CNN
@@ -154,10 +154,10 @@ Wire Wire Line
 Wire Wire Line
 	7750 2400 7750 2250
 $Comp
-L portable-light-rescue:+BATT-power #PWR?
+L portable-light-rescue:+BATT-power #PWR056
 U 1 1 5F377858
 P 7750 2250
-F 0 "#PWR?" H 7750 2100 50  0001 C CNN
+F 0 "#PWR056" H 7750 2100 50  0001 C CNN
 F 1 "+BATT" H 7765 2423 50  0000 C CNN
 F 2 "" H 7750 2250 50  0001 C CNN
 F 3 "" H 7750 2250 50  0001 C CNN
@@ -165,10 +165,10 @@ F 3 "" H 7750 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:PHD45N03LTA-PHD45N03LTA Q?
+L portable-light-rescue:PHD45N03LTA-PHD45N03LTA Q19
 U 1 1 5F378FEB
 P 7750 2700
-F 0 "Q?" H 7903 2746 50  0000 L CNN
+F 0 "Q19" H 7903 2746 50  0000 L CNN
 F 1 "PHD45N03LTA" H 7903 2655 50  0000 L CNN
 F 2 "UniX_Generic:DPAK" H 7750 2700 50  0001 L BNN
 F 3 "NXP" H 7750 2700 50  0001 L BNN
@@ -176,10 +176,10 @@ F 3 "NXP" H 7750 2700 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:R_Small-Device R?
+L portable-light-rescue:R_Small-Device R35
 U 1 1 60306208
 P 7250 2800
-F 0 "R?" V 7150 2750 50  0000 L CNN
+F 0 "R35" V 7150 2750 50  0000 L CNN
 F 1 "33R" V 7350 2700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7250 2800 50  0001 C CNN
 F 3 "~" H 7250 2800 50  0001 C CNN
@@ -193,8 +193,8 @@ L Transistor_BJT:MMBT3904 Q?
 U 1 1 60316DFB
 P 6700 3100
 AR Path="/5F34BD03/60316DFB" Ref="Q?"  Part="1" 
-AR Path="/5F37658B/60316DFB" Ref="Q?"  Part="1" 
-F 0 "Q?" H 6891 3146 50  0000 L CNN
+AR Path="/5F37658B/60316DFB" Ref="Q16"  Part="1" 
+F 0 "Q16" H 6891 3146 50  0000 L CNN
 F 1 "MMBT2222" H 6891 3055 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6900 3025 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6700 3100 50  0001 L CNN
@@ -206,9 +206,9 @@ L Device:R_Small R?
 U 1 1 60316E01
 P 6250 2500
 AR Path="/5F34BD03/60316E01" Ref="R?"  Part="1" 
-AR Path="/5F37658B/60316E01" Ref="R?"  Part="1" 
-F 0 "R?" V 6054 2500 50  0000 C CNN
-F 1 "R_Small" V 6145 2500 50  0000 C CNN
+AR Path="/5F37658B/60316E01" Ref="R31"  Part="1" 
+F 0 "R31" V 6054 2500 50  0000 C CNN
+F 1 "1K" V 6145 2500 50  0000 C CNN
 F 2 "" H 6250 2500 50  0001 C CNN
 F 3 "~" H 6250 2500 50  0001 C CNN
 	1    6250 2500
@@ -219,8 +219,8 @@ L power:+BATT #PWR?
 U 1 1 60316E07
 P 6800 2250
 AR Path="/5F34BD03/60316E07" Ref="#PWR?"  Part="1" 
-AR Path="/5F37658B/60316E07" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6800 2100 50  0001 C CNN
+AR Path="/5F37658B/60316E07" Ref="#PWR052"  Part="1" 
+F 0 "#PWR052" H 6800 2100 50  0001 C CNN
 F 1 "+BATT" H 6815 2423 50  0000 C CNN
 F 2 "" H 6800 2250 50  0001 C CNN
 F 3 "" H 6800 2250 50  0001 C CNN
@@ -236,9 +236,9 @@ L Device:R_Small R?
 U 1 1 60316E0F
 P 5800 2500
 AR Path="/5F34BD03/60316E0F" Ref="R?"  Part="1" 
-AR Path="/5F37658B/60316E0F" Ref="R?"  Part="1" 
-F 0 "R?" V 5604 2500 50  0000 C CNN
-F 1 "R_Small" V 5695 2500 50  0000 C CNN
+AR Path="/5F37658B/60316E0F" Ref="R27"  Part="1" 
+F 0 "R27" V 5604 2500 50  0000 C CNN
+F 1 "50R" V 5695 2500 50  0000 C CNN
 F 2 "" H 5800 2500 50  0001 C CNN
 F 3 "~" H 5800 2500 50  0001 C CNN
 	1    5800 2500
@@ -249,8 +249,8 @@ L Device:C_Small C?
 U 1 1 60316E15
 P 6250 2150
 AR Path="/5F34BD03/60316E15" Ref="C?"  Part="1" 
-AR Path="/5F37658B/60316E15" Ref="C?"  Part="1" 
-F 0 "C?" V 6200 2050 50  0000 C CNN
+AR Path="/5F37658B/60316E15" Ref="C14"  Part="1" 
+F 0 "C14" V 6200 2050 50  0000 C CNN
 F 1 "C_Small" V 6200 2350 50  0000 C CNN
 F 2 "" H 6250 2150 50  0001 C CNN
 F 3 "~" H 6250 2150 50  0001 C CNN
@@ -278,8 +278,8 @@ L Device:C_Small C?
 U 1 1 60316E31
 P 6250 2750
 AR Path="/5F34BD03/60316E31" Ref="C?"  Part="1" 
-AR Path="/5F37658B/60316E31" Ref="C?"  Part="1" 
-F 0 "C?" V 6200 2650 50  0000 C CNN
+AR Path="/5F37658B/60316E31" Ref="C15"  Part="1" 
+F 0 "C15" V 6200 2650 50  0000 C CNN
 F 1 "C_Small" V 6200 2950 50  0000 C CNN
 F 2 "" H 6250 2750 50  0001 C CNN
 F 3 "~" H 6250 2750 50  0001 C CNN
@@ -299,8 +299,8 @@ L Transistor_BJT:MMBT3904 Q?
 U 1 1 60316E47
 P 3900 2750
 AR Path="/5F34BD03/60316E47" Ref="Q?"  Part="1" 
-AR Path="/5F37658B/60316E47" Ref="Q?"  Part="1" 
-F 0 "Q?" H 4091 2796 50  0000 L CNN
+AR Path="/5F37658B/60316E47" Ref="Q11"  Part="1" 
+F 0 "Q11" H 4091 2796 50  0000 L CNN
 F 1 "MMBT2222" H 4091 2705 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4100 2675 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3900 2750 50  0001 L CNN
@@ -308,65 +308,12 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3900 2750 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
-U 1 1 60316E4D
-P 3450 2750
-AR Path="/5F34BD03/60316E4D" Ref="R?"  Part="1" 
-AR Path="/5F37658B/60316E4D" Ref="R?"  Part="1" 
-F 0 "R?" V 3254 2750 50  0000 C CNN
-F 1 "R_Small" V 3345 2750 50  0000 C CNN
-F 2 "" H 3450 2750 50  0001 C CNN
-F 3 "~" H 3450 2750 50  0001 C CNN
-	1    3450 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3550 2750 3650 2750
-$Comp
-L Device:R_Small R?
-U 1 1 60316E54
-P 3000 2750
-AR Path="/5F34BD03/60316E54" Ref="R?"  Part="1" 
-AR Path="/5F37658B/60316E54" Ref="R?"  Part="1" 
-F 0 "R?" V 2804 2750 50  0000 C CNN
-F 1 "R_Small" V 2895 2750 50  0000 C CNN
-F 2 "" H 3000 2750 50  0001 C CNN
-F 3 "~" H 3000 2750 50  0001 C CNN
-	1    3000 2750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60316E5A
-P 3450 2400
-AR Path="/5F34BD03/60316E5A" Ref="C?"  Part="1" 
-AR Path="/5F37658B/60316E5A" Ref="C?"  Part="1" 
-F 0 "C?" V 3400 2300 50  0000 C CNN
-F 1 "C_Small" V 3400 2600 50  0000 C CNN
-F 2 "" H 3450 2400 50  0001 C CNN
-F 3 "~" H 3450 2400 50  0001 C CNN
-	1    3450 2400
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	3650 2400 3650 2750
-Connection ~ 3650 2750
-Wire Wire Line
-	3650 2750 3700 2750
-Wire Wire Line
-	3250 2400 3250 2750
-Connection ~ 3250 2750
-Wire Wire Line
-	3250 2750 3350 2750
-Wire Wire Line
-	3100 2750 3250 2750
-$Comp
 L power:GND #PWR?
 U 1 1 60316E67
 P 4000 3000
 AR Path="/5F34BD03/60316E67" Ref="#PWR?"  Part="1" 
-AR Path="/5F37658B/60316E67" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4000 2750 50  0001 C CNN
+AR Path="/5F37658B/60316E67" Ref="#PWR048"  Part="1" 
+F 0 "#PWR048" H 4000 2750 50  0001 C CNN
 F 1 "GND" H 4005 2827 50  0000 C CNN
 F 2 "" H 4000 3000 50  0001 C CNN
 F 3 "" H 4000 3000 50  0001 C CNN
@@ -378,34 +325,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 2550 4000 2500
 Wire Wire Line
-	3550 2400 3650 2400
-Wire Wire Line
-	3350 2400 3250 2400
-Wire Wire Line
 	4000 2500 5700 2500
-$Comp
-L Device:C_Small C?
-U 1 1 60316E85
-P 5000 3000
-AR Path="/5F34BD03/60316E85" Ref="C?"  Part="1" 
-AR Path="/5F37658B/60316E85" Ref="C?"  Part="1" 
-F 0 "C?" V 4950 2900 50  0000 C CNN
-F 1 "C_Small" V 4950 3200 50  0000 C CNN
-F 2 "" H 5000 3000 50  0001 C CNN
-F 3 "~" H 5000 3000 50  0001 C CNN
-	1    5000 3000
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	5200 3000 5200 3350
-Wire Wire Line
-	4800 3000 4800 3350
-Wire Wire Line
-	5100 3000 5200 3000
-Wire Wire Line
-	4900 3000 4800 3000
-Wire Wire Line
-	2900 2750 2850 2750
 Text HLabel 2850 2750 0    79   Input ~ 0
 high_mos_high_bjt
 $Comp
@@ -413,8 +333,8 @@ L Device:Q_PNP_BCE Q?
 U 1 1 60316EB2
 P 6700 2500
 AR Path="/5F34BD03/60316EB2" Ref="Q?"  Part="1" 
-AR Path="/5F37658B/60316EB2" Ref="Q?"  Part="1" 
-F 0 "Q?" H 6890 2546 50  0000 L CNN
+AR Path="/5F37658B/60316EB2" Ref="Q15"  Part="1" 
+F 0 "Q15" H 6890 2546 50  0000 L CNN
 F 1 "Q_PNP_BCE" H 6890 2455 50  0000 L CNN
 F 2 "" H 6900 2600 50  0001 C CNN
 F 3 "~" H 6700 2500 50  0001 C CNN
@@ -429,38 +349,12 @@ Connection ~ 6800 2800
 Wire Wire Line
 	6800 2800 6800 2900
 $Comp
-L Device:R_Small R?
-U 1 1 60316E24
-P 6250 3100
-AR Path="/5F34BD03/60316E24" Ref="R?"  Part="1" 
-AR Path="/5F37658B/60316E24" Ref="R?"  Part="1" 
-F 0 "R?" V 6054 3100 50  0000 C CNN
-F 1 "R_Small" V 6145 3100 50  0000 C CNN
-F 2 "" H 6250 3100 50  0001 C CNN
-F 3 "~" H 6250 3100 50  0001 C CNN
-	1    6250 3100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 60316E2B
-P 5800 3100
-AR Path="/5F34BD03/60316E2B" Ref="R?"  Part="1" 
-AR Path="/5F37658B/60316E2B" Ref="R?"  Part="1" 
-F 0 "R?" V 5604 3100 50  0000 C CNN
-F 1 "R_Small" V 5695 3100 50  0000 C CNN
-F 2 "" H 5800 3100 50  0001 C CNN
-F 3 "~" H 5800 3100 50  0001 C CNN
-	1    5800 3100
-	0    1    1    0   
-$EndComp
-$Comp
 L Transistor_BJT:MMBT3904 Q?
 U 1 1 60316E72
 P 5450 3350
 AR Path="/5F34BD03/60316E72" Ref="Q?"  Part="1" 
-AR Path="/5F37658B/60316E72" Ref="Q?"  Part="1" 
-F 0 "Q?" H 5641 3396 50  0000 L CNN
+AR Path="/5F37658B/60316E72" Ref="Q13"  Part="1" 
+F 0 "Q13" H 5641 3396 50  0000 L CNN
 F 1 "MMBT2222" H 5641 3305 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5650 3275 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5450 3350 50  0001 L CNN
@@ -468,38 +362,12 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5450 3350 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
-U 1 1 60316E78
-P 5000 3350
-AR Path="/5F34BD03/60316E78" Ref="R?"  Part="1" 
-AR Path="/5F37658B/60316E78" Ref="R?"  Part="1" 
-F 0 "R?" V 4804 3350 50  0000 C CNN
-F 1 "R_Small" V 4895 3350 50  0000 C CNN
-F 2 "" H 5000 3350 50  0001 C CNN
-F 3 "~" H 5000 3350 50  0001 C CNN
-	1    5000 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 60316E7F
-P 4550 3350
-AR Path="/5F34BD03/60316E7F" Ref="R?"  Part="1" 
-AR Path="/5F37658B/60316E7F" Ref="R?"  Part="1" 
-F 0 "R?" V 4354 3350 50  0000 C CNN
-F 1 "R_Small" V 4445 3350 50  0000 C CNN
-F 2 "" H 4550 3350 50  0001 C CNN
-F 3 "~" H 4550 3350 50  0001 C CNN
-	1    4550 3350
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 60316E92
 P 5550 3600
 AR Path="/5F34BD03/60316E92" Ref="#PWR?"  Part="1" 
-AR Path="/5F37658B/60316E92" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5550 3350 50  0001 C CNN
+AR Path="/5F37658B/60316E92" Ref="#PWR050"  Part="1" 
+F 0 "#PWR050" H 5550 3350 50  0001 C CNN
 F 1 "GND" H 5555 3427 50  0000 C CNN
 F 2 "" H 5550 3600 50  0001 C CNN
 F 3 "" H 5550 3600 50  0001 C CNN
@@ -515,16 +383,6 @@ Wire Wire Line
 Text HLabel 2850 3350 0    79   Input ~ 0
 high_mos_low_bjt
 Wire Wire Line
-	4650 3350 4800 3350
-Wire Wire Line
-	4800 3350 4900 3350
-Connection ~ 4800 3350
-Wire Wire Line
-	5100 3350 5200 3350
-Wire Wire Line
-	5200 3350 5250 3350
-Connection ~ 5200 3350
-Wire Wire Line
 	5900 3100 6050 3100
 Wire Wire Line
 	6050 3100 6150 3100
@@ -534,15 +392,13 @@ Wire Wire Line
 Wire Wire Line
 	6450 3100 6500 3100
 Connection ~ 6450 3100
-Wire Wire Line
-	2850 3350 4450 3350
 $Comp
 L power:GND #PWR?
 U 1 1 6038A2CE
 P 6800 5450
 AR Path="/5F34BD03/6038A2CE" Ref="#PWR?"  Part="1" 
-AR Path="/5F37658B/6038A2CE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6800 5200 50  0001 C CNN
+AR Path="/5F37658B/6038A2CE" Ref="#PWR055"  Part="1" 
+F 0 "#PWR055" H 6800 5200 50  0001 C CNN
 F 1 "GND" H 6805 5277 50  0000 C CNN
 F 2 "" H 6800 5450 50  0001 C CNN
 F 3 "" H 6800 5450 50  0001 C CNN
@@ -552,10 +408,10 @@ $EndComp
 Wire Wire Line
 	6800 5400 6800 5450
 $Comp
-L portable-light-rescue:R_Small-Device R?
+L portable-light-rescue:R_Small-Device R36
 U 1 1 6038A2D5
 P 7250 4900
-F 0 "R?" V 7150 4850 50  0000 L CNN
+F 0 "R36" V 7150 4850 50  0000 L CNN
 F 1 "33R" V 7350 4800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7250 4900 50  0001 C CNN
 F 3 "~" H 7250 4900 50  0001 C CNN
@@ -567,8 +423,8 @@ L Transistor_BJT:MMBT3904 Q?
 U 1 1 6038A2DB
 P 6700 5200
 AR Path="/5F34BD03/6038A2DB" Ref="Q?"  Part="1" 
-AR Path="/5F37658B/6038A2DB" Ref="Q?"  Part="1" 
-F 0 "Q?" H 6891 5246 50  0000 L CNN
+AR Path="/5F37658B/6038A2DB" Ref="Q18"  Part="1" 
+F 0 "Q18" H 6891 5246 50  0000 L CNN
 F 1 "MMBT2222" H 6891 5155 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6900 5125 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6700 5200 50  0001 L CNN
@@ -576,25 +432,12 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6700 5200 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
-U 1 1 6038A2E1
-P 6250 4600
-AR Path="/5F34BD03/6038A2E1" Ref="R?"  Part="1" 
-AR Path="/5F37658B/6038A2E1" Ref="R?"  Part="1" 
-F 0 "R?" V 6054 4600 50  0000 C CNN
-F 1 "R_Small" V 6145 4600 50  0000 C CNN
-F 2 "" H 6250 4600 50  0001 C CNN
-F 3 "~" H 6250 4600 50  0001 C CNN
-	1    6250 4600
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+BATT #PWR?
 U 1 1 6038A2E7
 P 6800 4350
 AR Path="/5F34BD03/6038A2E7" Ref="#PWR?"  Part="1" 
-AR Path="/5F37658B/6038A2E7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6800 4200 50  0001 C CNN
+AR Path="/5F37658B/6038A2E7" Ref="#PWR054"  Part="1" 
+F 0 "#PWR054" H 6800 4200 50  0001 C CNN
 F 1 "+BATT" H 6815 4523 50  0000 C CNN
 F 2 "" H 6800 4350 50  0001 C CNN
 F 3 "" H 6800 4350 50  0001 C CNN
@@ -606,25 +449,12 @@ Wire Wire Line
 Wire Wire Line
 	6350 4600 6450 4600
 $Comp
-L Device:R_Small R?
-U 1 1 6038A2EF
-P 5800 4600
-AR Path="/5F34BD03/6038A2EF" Ref="R?"  Part="1" 
-AR Path="/5F37658B/6038A2EF" Ref="R?"  Part="1" 
-F 0 "R?" V 5604 4600 50  0000 C CNN
-F 1 "R_Small" V 5695 4600 50  0000 C CNN
-F 2 "" H 5800 4600 50  0001 C CNN
-F 3 "~" H 5800 4600 50  0001 C CNN
-	1    5800 4600
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C_Small C?
 U 1 1 6038A2F5
 P 6250 4250
 AR Path="/5F34BD03/6038A2F5" Ref="C?"  Part="1" 
-AR Path="/5F37658B/6038A2F5" Ref="C?"  Part="1" 
-F 0 "C?" V 6200 4150 50  0000 C CNN
+AR Path="/5F37658B/6038A2F5" Ref="C16"  Part="1" 
+F 0 "C16" V 6200 4150 50  0000 C CNN
 F 1 "C_Small" V 6200 4450 50  0000 C CNN
 F 2 "" H 6250 4250 50  0001 C CNN
 F 3 "~" H 6250 4250 50  0001 C CNN
@@ -652,8 +482,8 @@ L Device:C_Small C?
 U 1 1 6038A304
 P 6250 4850
 AR Path="/5F34BD03/6038A304" Ref="C?"  Part="1" 
-AR Path="/5F37658B/6038A304" Ref="C?"  Part="1" 
-F 0 "C?" V 6200 4750 50  0000 C CNN
+AR Path="/5F37658B/6038A304" Ref="C17"  Part="1" 
+F 0 "C17" V 6200 4750 50  0000 C CNN
 F 1 "C_Small" V 6200 5050 50  0000 C CNN
 F 2 "" H 6250 4850 50  0001 C CNN
 F 3 "~" H 6250 4850 50  0001 C CNN
@@ -673,8 +503,8 @@ L Transistor_BJT:MMBT3904 Q?
 U 1 1 6038A30E
 P 3900 4850
 AR Path="/5F34BD03/6038A30E" Ref="Q?"  Part="1" 
-AR Path="/5F37658B/6038A30E" Ref="Q?"  Part="1" 
-F 0 "Q?" H 4091 4896 50  0000 L CNN
+AR Path="/5F37658B/6038A30E" Ref="Q12"  Part="1" 
+F 0 "Q12" H 4091 4896 50  0000 L CNN
 F 1 "MMBT2222" H 4091 4805 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4100 4775 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3900 4850 50  0001 L CNN
@@ -682,65 +512,12 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3900 4850 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
-U 1 1 6038A314
-P 3450 4850
-AR Path="/5F34BD03/6038A314" Ref="R?"  Part="1" 
-AR Path="/5F37658B/6038A314" Ref="R?"  Part="1" 
-F 0 "R?" V 3254 4850 50  0000 C CNN
-F 1 "R_Small" V 3345 4850 50  0000 C CNN
-F 2 "" H 3450 4850 50  0001 C CNN
-F 3 "~" H 3450 4850 50  0001 C CNN
-	1    3450 4850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3550 4850 3650 4850
-$Comp
-L Device:R_Small R?
-U 1 1 6038A31B
-P 3000 4850
-AR Path="/5F34BD03/6038A31B" Ref="R?"  Part="1" 
-AR Path="/5F37658B/6038A31B" Ref="R?"  Part="1" 
-F 0 "R?" V 2804 4850 50  0000 C CNN
-F 1 "R_Small" V 2895 4850 50  0000 C CNN
-F 2 "" H 3000 4850 50  0001 C CNN
-F 3 "~" H 3000 4850 50  0001 C CNN
-	1    3000 4850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 6038A321
-P 3450 4500
-AR Path="/5F34BD03/6038A321" Ref="C?"  Part="1" 
-AR Path="/5F37658B/6038A321" Ref="C?"  Part="1" 
-F 0 "C?" V 3400 4400 50  0000 C CNN
-F 1 "C_Small" V 3400 4700 50  0000 C CNN
-F 2 "" H 3450 4500 50  0001 C CNN
-F 3 "~" H 3450 4500 50  0001 C CNN
-	1    3450 4500
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	3650 4500 3650 4850
-Connection ~ 3650 4850
-Wire Wire Line
-	3650 4850 3700 4850
-Wire Wire Line
-	3250 4500 3250 4850
-Connection ~ 3250 4850
-Wire Wire Line
-	3250 4850 3350 4850
-Wire Wire Line
-	3100 4850 3250 4850
-$Comp
 L power:GND #PWR?
 U 1 1 6038A32E
 P 4000 5100
 AR Path="/5F34BD03/6038A32E" Ref="#PWR?"  Part="1" 
-AR Path="/5F37658B/6038A32E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4000 4850 50  0001 C CNN
+AR Path="/5F37658B/6038A32E" Ref="#PWR049"  Part="1" 
+F 0 "#PWR049" H 4000 4850 50  0001 C CNN
 F 1 "GND" H 4005 4927 50  0000 C CNN
 F 2 "" H 4000 5100 50  0001 C CNN
 F 3 "" H 4000 5100 50  0001 C CNN
@@ -752,34 +529,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 4650 4000 4600
 Wire Wire Line
-	3550 4500 3650 4500
-Wire Wire Line
-	3350 4500 3250 4500
-Wire Wire Line
 	4000 4600 5700 4600
-$Comp
-L Device:C_Small C?
-U 1 1 6038A339
-P 5000 5100
-AR Path="/5F34BD03/6038A339" Ref="C?"  Part="1" 
-AR Path="/5F37658B/6038A339" Ref="C?"  Part="1" 
-F 0 "C?" V 4950 5000 50  0000 C CNN
-F 1 "C_Small" V 4950 5300 50  0000 C CNN
-F 2 "" H 5000 5100 50  0001 C CNN
-F 3 "~" H 5000 5100 50  0001 C CNN
-	1    5000 5100
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	5200 5100 5200 5450
-Wire Wire Line
-	4800 5100 4800 5450
-Wire Wire Line
-	5100 5100 5200 5100
-Wire Wire Line
-	4900 5100 4800 5100
-Wire Wire Line
-	2900 4850 2850 4850
 Text HLabel 2850 4850 0    79   Input ~ 0
 low_mos_high_bjt
 $Comp
@@ -787,8 +537,8 @@ L Device:Q_PNP_BCE Q?
 U 1 1 6038A345
 P 6700 4600
 AR Path="/5F34BD03/6038A345" Ref="Q?"  Part="1" 
-AR Path="/5F37658B/6038A345" Ref="Q?"  Part="1" 
-F 0 "Q?" H 6890 4646 50  0000 L CNN
+AR Path="/5F37658B/6038A345" Ref="Q17"  Part="1" 
+F 0 "Q17" H 6890 4646 50  0000 L CNN
 F 1 "Q_PNP_BCE" H 6890 4555 50  0000 L CNN
 F 2 "" H 6900 4700 50  0001 C CNN
 F 3 "~" H 6700 4600 50  0001 C CNN
@@ -803,38 +553,12 @@ Connection ~ 6800 4900
 Wire Wire Line
 	6800 4900 6800 5000
 $Comp
-L Device:R_Small R?
-U 1 1 6038A34F
-P 6250 5200
-AR Path="/5F34BD03/6038A34F" Ref="R?"  Part="1" 
-AR Path="/5F37658B/6038A34F" Ref="R?"  Part="1" 
-F 0 "R?" V 6054 5200 50  0000 C CNN
-F 1 "R_Small" V 6145 5200 50  0000 C CNN
-F 2 "" H 6250 5200 50  0001 C CNN
-F 3 "~" H 6250 5200 50  0001 C CNN
-	1    6250 5200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 6038A355
-P 5800 5200
-AR Path="/5F34BD03/6038A355" Ref="R?"  Part="1" 
-AR Path="/5F37658B/6038A355" Ref="R?"  Part="1" 
-F 0 "R?" V 5604 5200 50  0000 C CNN
-F 1 "R_Small" V 5695 5200 50  0000 C CNN
-F 2 "" H 5800 5200 50  0001 C CNN
-F 3 "~" H 5800 5200 50  0001 C CNN
-	1    5800 5200
-	0    1    1    0   
-$EndComp
-$Comp
 L Transistor_BJT:MMBT3904 Q?
 U 1 1 6038A35B
 P 5450 5450
 AR Path="/5F34BD03/6038A35B" Ref="Q?"  Part="1" 
-AR Path="/5F37658B/6038A35B" Ref="Q?"  Part="1" 
-F 0 "Q?" H 5641 5496 50  0000 L CNN
+AR Path="/5F37658B/6038A35B" Ref="Q14"  Part="1" 
+F 0 "Q14" H 5641 5496 50  0000 L CNN
 F 1 "MMBT2222" H 5641 5405 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5650 5375 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5450 5450 50  0001 L CNN
@@ -846,25 +570,12 @@ L Device:R_Small R?
 U 1 1 6038A361
 P 5000 5450
 AR Path="/5F34BD03/6038A361" Ref="R?"  Part="1" 
-AR Path="/5F37658B/6038A361" Ref="R?"  Part="1" 
-F 0 "R?" V 4804 5450 50  0000 C CNN
-F 1 "R_Small" V 4895 5450 50  0000 C CNN
+AR Path="/5F37658B/6038A361" Ref="R26"  Part="1" 
+F 0 "R26" V 4804 5450 50  0000 C CNN
+F 1 "10K" V 4895 5450 50  0000 C CNN
 F 2 "" H 5000 5450 50  0001 C CNN
 F 3 "~" H 5000 5450 50  0001 C CNN
 	1    5000 5450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 6038A367
-P 4550 5450
-AR Path="/5F34BD03/6038A367" Ref="R?"  Part="1" 
-AR Path="/5F37658B/6038A367" Ref="R?"  Part="1" 
-F 0 "R?" V 4354 5450 50  0000 C CNN
-F 1 "R_Small" V 4445 5450 50  0000 C CNN
-F 2 "" H 4550 5450 50  0001 C CNN
-F 3 "~" H 4550 5450 50  0001 C CNN
-	1    4550 5450
 	0    1    1    0   
 $EndComp
 $Comp
@@ -872,8 +583,8 @@ L power:GND #PWR?
 U 1 1 6038A36D
 P 5550 5700
 AR Path="/5F34BD03/6038A36D" Ref="#PWR?"  Part="1" 
-AR Path="/5F37658B/6038A36D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5550 5450 50  0001 C CNN
+AR Path="/5F37658B/6038A36D" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 5550 5450 50  0001 C CNN
 F 1 "GND" H 5555 5527 50  0000 C CNN
 F 2 "" H 5550 5700 50  0001 C CNN
 F 3 "" H 5550 5700 50  0001 C CNN
@@ -889,16 +600,6 @@ Wire Wire Line
 Text HLabel 2850 5450 0    79   Input ~ 0
 low_mos_low_bjt
 Wire Wire Line
-	4650 5450 4800 5450
-Wire Wire Line
-	4800 5450 4900 5450
-Connection ~ 4800 5450
-Wire Wire Line
-	5100 5450 5200 5450
-Wire Wire Line
-	5200 5450 5250 5450
-Connection ~ 5200 5450
-Wire Wire Line
 	5900 5200 6050 5200
 Wire Wire Line
 	6050 5200 6150 5200
@@ -908,8 +609,6 @@ Wire Wire Line
 Wire Wire Line
 	6450 5200 6500 5200
 Connection ~ 6450 5200
-Wire Wire Line
-	2850 5450 4450 5450
 Wire Wire Line
 	7350 4900 7450 4900
 Wire Wire Line
@@ -928,4 +627,137 @@ Text HLabel 9550 4500 2    79   Input ~ 0
 vsense
 Wire Wire Line
 	9150 4500 9550 4500
+Wire Wire Line
+	3550 2750 3700 2750
+Wire Wire Line
+	3550 4850 3700 4850
+Wire Wire Line
+	5100 5450 5250 5450
+Wire Wire Line
+	5100 3350 5250 3350
+Wire Wire Line
+	2850 3350 4900 3350
+Wire Wire Line
+	2850 5450 4900 5450
+Wire Wire Line
+	2850 2750 3350 2750
+Wire Wire Line
+	2850 4850 3350 4850
+$Comp
+L Device:R_Small R?
+U 1 1 5F65F4D9
+P 6250 3100
+AR Path="/5F34BD03/5F65F4D9" Ref="R?"  Part="1" 
+AR Path="/5F37658B/5F65F4D9" Ref="R32"  Part="1" 
+F 0 "R32" V 6054 3100 50  0000 C CNN
+F 1 "1K" V 6145 3100 50  0000 C CNN
+F 2 "" H 6250 3100 50  0001 C CNN
+F 3 "~" H 6250 3100 50  0001 C CNN
+	1    6250 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F65F966
+P 6250 4600
+AR Path="/5F34BD03/5F65F966" Ref="R?"  Part="1" 
+AR Path="/5F37658B/5F65F966" Ref="R33"  Part="1" 
+F 0 "R33" V 6054 4600 50  0000 C CNN
+F 1 "1K" V 6145 4600 50  0000 C CNN
+F 2 "" H 6250 4600 50  0001 C CNN
+F 3 "~" H 6250 4600 50  0001 C CNN
+	1    6250 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F66116D
+P 6250 5200
+AR Path="/5F34BD03/5F66116D" Ref="R?"  Part="1" 
+AR Path="/5F37658B/5F66116D" Ref="R34"  Part="1" 
+F 0 "R34" V 6054 5200 50  0000 C CNN
+F 1 "1K" V 6145 5200 50  0000 C CNN
+F 2 "" H 6250 5200 50  0001 C CNN
+F 3 "~" H 6250 5200 50  0001 C CNN
+	1    6250 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F66157F
+P 5800 3100
+AR Path="/5F34BD03/5F66157F" Ref="R?"  Part="1" 
+AR Path="/5F37658B/5F66157F" Ref="R28"  Part="1" 
+F 0 "R28" V 5604 3100 50  0000 C CNN
+F 1 "50R" V 5695 3100 50  0000 C CNN
+F 2 "" H 5800 3100 50  0001 C CNN
+F 3 "~" H 5800 3100 50  0001 C CNN
+	1    5800 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F661A49
+P 5800 4600
+AR Path="/5F34BD03/5F661A49" Ref="R?"  Part="1" 
+AR Path="/5F37658B/5F661A49" Ref="R29"  Part="1" 
+F 0 "R29" V 5604 4600 50  0000 C CNN
+F 1 "50R" V 5695 4600 50  0000 C CNN
+F 2 "" H 5800 4600 50  0001 C CNN
+F 3 "~" H 5800 4600 50  0001 C CNN
+	1    5800 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F661FAC
+P 5800 5200
+AR Path="/5F34BD03/5F661FAC" Ref="R?"  Part="1" 
+AR Path="/5F37658B/5F661FAC" Ref="R30"  Part="1" 
+F 0 "R30" V 5604 5200 50  0000 C CNN
+F 1 "50R" V 5695 5200 50  0000 C CNN
+F 2 "" H 5800 5200 50  0001 C CNN
+F 3 "~" H 5800 5200 50  0001 C CNN
+	1    5800 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F664153
+P 3450 4850
+AR Path="/5F34BD03/5F664153" Ref="R?"  Part="1" 
+AR Path="/5F37658B/5F664153" Ref="R24"  Part="1" 
+F 0 "R24" V 3254 4850 50  0000 C CNN
+F 1 "10K" V 3345 4850 50  0000 C CNN
+F 2 "" H 3450 4850 50  0001 C CNN
+F 3 "~" H 3450 4850 50  0001 C CNN
+	1    3450 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F664602
+P 5000 3350
+AR Path="/5F34BD03/5F664602" Ref="R?"  Part="1" 
+AR Path="/5F37658B/5F664602" Ref="R25"  Part="1" 
+F 0 "R25" V 4804 3350 50  0000 C CNN
+F 1 "10K" V 4895 3350 50  0000 C CNN
+F 2 "" H 5000 3350 50  0001 C CNN
+F 3 "~" H 5000 3350 50  0001 C CNN
+	1    5000 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F665738
+P 3450 2750
+AR Path="/5F34BD03/5F665738" Ref="R?"  Part="1" 
+AR Path="/5F37658B/5F665738" Ref="R23"  Part="1" 
+F 0 "R23" V 3254 2750 50  0000 C CNN
+F 1 "10K" V 3345 2750 50  0000 C CNN
+F 2 "" H 3450 2750 50  0001 C CNN
+F 3 "~" H 3450 2750 50  0001 C CNN
+	1    3450 2750
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
