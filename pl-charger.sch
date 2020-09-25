@@ -35,32 +35,10 @@ F 3 "~" H 3400 3500 50  0001 C CNN
 	1    3400 3500
 	0    -1   -1   0   
 $EndComp
-$Comp
-L portable-light-rescue:VBUS-power #PWR020
-U 1 1 5F15EA3E
-P 3650 2700
-F 0 "#PWR020" H 3650 2550 50  0001 C CNN
-F 1 "VBUS" H 3665 2873 50  0000 C CNN
-F 2 "" H 3650 2700 50  0001 C CNN
-F 3 "" H 3650 2700 50  0001 C CNN
-	1    3650 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3300 3500 3250 3500
 Wire Wire Line
 	2850 3500 3050 3500
-$Comp
-L portable-light-rescue:VDC-power #PWR022
-U 1 1 5F378F81
-P 4250 3400
-F 0 "#PWR022" H 4250 3300 50  0001 C CNN
-F 1 "VDC" H 4265 3573 50  0000 C CNN
-F 2 "" H 4250 3400 50  0001 C CNN
-F 3 "" H 4250 3400 50  0001 C CNN
-	1    4250 3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4250 3400 4250 3600
 Wire Wire Line
@@ -78,48 +56,15 @@ F 3 "~" H 7800 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7900 3600 7950 3600
-$Comp
-L portable-light-rescue:+BATT-power #PWR027
-U 1 1 5F378F86
-P 7500 3400
-F 0 "#PWR027" H 7500 3250 50  0001 C CNN
-F 1 "+BATT" H 7500 3550 50  0000 C CNN
-F 2 "" H 7500 3400 50  0001 C CNN
-F 3 "" H 7500 3400 50  0001 C CNN
-	1    7500 3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6950 3800 7200 3800
 Wire Wire Line
 	6950 3500 7050 3500
 Wire Wire Line
 	7050 4000 6950 4000
-$Comp
-L portable-light-rescue:GNDPWR-power #PWR024
-U 1 1 5F378F92
-P 7050 4100
-F 0 "#PWR024" H 7050 3900 50  0001 C CNN
-F 1 "GNDPWR" H 7050 3950 50  0000 C CNN
-F 2 "" H 7050 4050 50  0001 C CNN
-F 3 "" H 7050 4050 50  0001 C CNN
-	1    7050 4100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7050 4000 7050 4100
 Connection ~ 7050 4000
-$Comp
-L portable-light-rescue:GNDPWR-power #PWR023
-U 1 1 5F54FEEB
-P 4250 4100
-F 0 "#PWR023" H 4250 3900 50  0001 C CNN
-F 1 "GNDPWR" H 4250 3950 50  0000 C CNN
-F 2 "" H 4250 4050 50  0001 C CNN
-F 3 "" H 4250 4050 50  0001 C CNN
-	1    4250 4100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4350 3900 4250 3900
 Wire Wire Line
@@ -173,10 +118,10 @@ F 3 "~" H 7950 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L portable-light-rescue:C_Small-Device C5
+L portable-light-rescue:C_Small-Device C3
 U 1 1 5F378F9E
 P 3900 4150
-F 0 "C5" H 3950 4250 50  0000 L CNN
+F 0 "C3" H 3950 4250 50  0000 L CNN
 F 1 "100n" V 3600 4000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3900 4150 50  0001 C CNN
 F 3 "~" H 3900 4150 50  0001 C CNN
@@ -184,10 +129,10 @@ F 3 "~" H 3900 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:C_Small-Device C4
+L portable-light-rescue:C_Small-Device C2
 U 1 1 5F290824
 P 3700 4150
-F 0 "C4" H 3550 4250 50  0000 L CNN
+F 0 "C2" H 3550 4250 50  0000 L CNN
 F 1 "100n" V 4000 4000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3700 4150 50  0001 C CNN
 F 3 "~" H 3700 4150 50  0001 C CNN
@@ -252,8 +197,6 @@ Connection ~ 7350 3900
 Wire Wire Line
 	7350 3900 7500 3900
 Wire Wire Line
-	7650 4450 6900 4450
-Wire Wire Line
 	8200 3900 8200 4250
 Wire Wire Line
 	8200 4700 8200 4650
@@ -271,10 +214,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 8100 4450 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:LTC1733EMSEPBF-LTC1733 U2
+L portable-light-rescue:LTC1733EMSEPBF-LTC1733 U1
 U 1 1 5F378FEA
 P 4350 3500
-F 0 "U2" H 5650 3865 50  0000 C CNN
+F 0 "U1" H 5650 3865 50  0000 C CNN
 F 1 "LTC1733EMSEPBF" H 5650 3774 50  0000 C CNN
 F 2 "UniX_Generic:MSOP-10_MSE" H 4350 3500 50  0001 L BNN
 F 3 "ltc1733emse#pbf" H 4350 3500 50  0001 L BNN
@@ -282,47 +225,12 @@ F 4 "Linear Technology" H 4350 3500 50  0001 L BNN "Field4"
 	1    4350 3500
 	1    0    0    -1  
 $EndComp
-$Comp
-L portable-light-rescue:GNDPWR-power #PWR021
-U 1 1 5F54FEE8
-P 3800 4350
-F 0 "#PWR021" H 3800 4150 50  0001 C CNN
-F 1 "GNDPWR" H 3800 4200 50  0000 C CNN
-F 2 "" H 3800 4300 50  0001 C CNN
-F 3 "" H 3800 4300 50  0001 C CNN
-	1    3800 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L portable-light-rescue:GND-power #PWR028
-U 1 1 5F351CC6
-P 8200 4700
-F 0 "#PWR028" H 8200 4450 50  0001 C CNN
-F 1 "GND" H 8205 4527 50  0000 C CNN
-F 2 "" H 8200 4700 50  0001 C CNN
-F 3 "" H 8200 4700 50  0001 C CNN
-	1    8200 4700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3650 3250 3650 3500
 Wire Wire Line
 	3650 2700 3650 2800
-$Comp
-L portable-light-rescue:VDC-power #PWR025
-U 1 1 5F378F8D
-P 7200 3400
-F 0 "#PWR025" H 7200 3300 50  0001 C CNN
-F 1 "VDC" H 7200 3550 50  0000 C CNN
-F 2 "" H 7200 3400 50  0001 C CNN
-F 3 "" H 7200 3400 50  0001 C CNN
-	1    7200 3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7200 3800 7200 3400
-Wire Wire Line
-	7500 3700 7500 3400
 $Comp
 L portable-light-rescue:R_Small-Device R4
 U 1 1 5F65CDB9
@@ -347,7 +255,7 @@ F 3 "~" H 3650 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3650 3050 3650 3000
-Text HLabel 6900 4450 0    79   Input ~ 0
+Text HLabel 7550 4450 3    79   Input ~ 0
 prog_enable_charging
 Text HLabel 6750 2600 0    79   Input ~ 0
 prog_disable_charging
@@ -365,20 +273,9 @@ U 1 1 5F5A7610
 P 7250 2600
 F 0 "Q1" H 7440 2646 50  0000 L CNN
 F 1 "Q_PNP_BCE" H 7440 2555 50  0000 L CNN
-F 2 "" H 7450 2700 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7450 2700 50  0001 C CNN
 F 3 "~" H 7250 2600 50  0001 C CNN
 	1    7250 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L portable-light-rescue:+BATT-power #PWR026
-U 1 1 5F5AB657
-P 7350 2400
-F 0 "#PWR026" H 7350 2250 50  0001 C CNN
-F 1 "+BATT" H 7350 2550 50  0000 C CNN
-F 2 "" H 7350 2400 50  0001 C CNN
-F 3 "" H 7350 2400 50  0001 C CNN
-	1    7350 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -404,4 +301,102 @@ Wire Wire Line
 	7350 2800 7350 2900
 Wire Wire Line
 	7350 3900 7350 3100
+Text GLabel 7200 3400 1    39   UnSpc ~ 0
++CHARGER
+Text GLabel 7350 2400 1    39   UnSpc ~ 0
++BATT-2
+Text GLabel 3650 2700 1    39   UnSpc ~ 0
++5V
+Text GLabel 4250 3400 1    39   UnSpc ~ 0
++CHARGER
+Text GLabel 3800 4350 3    39   UnSpc ~ 0
+GND-CHARGER
+Text GLabel 8200 4700 3    39   UnSpc ~ 0
+GND-CHARGER
+Text GLabel 4250 4100 3    39   UnSpc ~ 0
+GND-CHARGER
+Text GLabel 7050 4100 3    39   UnSpc ~ 0
+GND-CHARGER
+Wire Wire Line
+	7550 4450 7650 4450
+$Comp
+L portable-light-rescue:Conn_01x02-Connector_Generic J?
+U 1 1 5F88BAE0
+P 5700 5100
+AR Path="/5F88BAE0" Ref="J?"  Part="1" 
+AR Path="/5F378869/5F88BAE0" Ref="J?"  Part="1" 
+AR Path="/5F377120/5F88BAE0" Ref="J10"  Part="1" 
+F 0 "J10" V 5600 5050 50  0000 L CNN
+F 1 "Charger" V 5800 4850 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5700 5100 50  0001 C CNN
+F 3 "~" H 5700 5100 50  0001 C CNN
+	1    5700 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 4850 5600 4900
+Text GLabel 5300 4850 0    39   UnSpc ~ 0
+GND-CHARGER
+$Comp
+L power:PWR_FLAG #FLG06
+U 1 1 5F8C1055
+P 5400 4850
+F 0 "#FLG06" H 5400 4925 50  0001 C CNN
+F 1 "PWR_FLAG" H 5400 5023 50  0000 C CNN
+F 2 "" H 5400 4850 50  0001 C CNN
+F 3 "~" H 5400 4850 50  0001 C CNN
+	1    5400 4850
+	1    0    0    -1  
+$EndComp
+Text GLabel 6000 4850 2    39   UnSpc ~ 0
++CHARGER
+Wire Wire Line
+	5700 4900 5700 4850
+Wire Wire Line
+	5300 4850 5400 4850
+Wire Wire Line
+	5700 4850 5850 4850
+$Comp
+L power:PWR_FLAG #FLG07
+U 1 1 5F8CCEC0
+P 5850 4850
+F 0 "#FLG07" H 5850 4925 50  0001 C CNN
+F 1 "PWR_FLAG" H 5850 5023 50  0000 C CNN
+F 2 "" H 5850 4850 50  0001 C CNN
+F 3 "~" H 5850 4850 50  0001 C CNN
+	1    5850 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 4850
+Wire Wire Line
+	5850 4850 6000 4850
+Connection ~ 5400 4850
+Wire Wire Line
+	5400 4850 5600 4850
+$Comp
+L portable-light-rescue:C_Small-Device C?
+U 1 1 5F8D5922
+P 5650 5550
+AR Path="/5F8D5922" Ref="C?"  Part="1" 
+AR Path="/5F378869/5F8D5922" Ref="C?"  Part="1" 
+AR Path="/5F377120/5F8D5922" Ref="C4"  Part="1" 
+F 0 "C4" H 5700 5650 50  0000 L CNN
+F 1 "10u" V 5500 5500 50  0000 L CNN
+F 2 "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm" H 5650 5550 50  0001 C CNN
+F 3 "~" H 5650 5550 50  0001 C CNN
+	1    5650 5550
+	0    1    1    0   
+$EndComp
+Text GLabel 6000 5550 2    39   UnSpc ~ 0
++CHARGER
+Text GLabel 5300 5550 0    39   UnSpc ~ 0
+GND-CHARGER
+Wire Wire Line
+	5750 5550 6000 5550
+Wire Wire Line
+	5300 5550 5550 5550
+Text GLabel 7500 3500 1    39   UnSpc ~ 0
++BATT-2
+Wire Wire Line
+	7500 3500 7500 3700
 $EndSCHEMATC

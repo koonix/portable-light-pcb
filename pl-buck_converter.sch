@@ -18,24 +18,13 @@ Wire Wire Line
 Connection ~ 9150 4500
 Wire Wire Line
 	9150 4800 9150 4750
-$Comp
-L portable-light-rescue:GNDA-power #PWR059
-U 1 1 5F378FB7
-P 9150 4800
-F 0 "#PWR059" H 9150 4550 50  0001 C CNN
-F 1 "GNDA" H 9150 4650 50  0000 C CNN
-F 2 "" H 9150 4800 50  0001 C CNN
-F 3 "" H 9150 4800 50  0001 C CNN
-	1    9150 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9150 4450 9150 4500
 $Comp
-L portable-light-rescue:R_Small-Device R39
+L portable-light-rescue:R_Small-Device R45
 U 1 1 5F377888
 P 9150 4650
-F 0 "R39" H 8950 4600 50  0000 L CNN
+F 0 "R45" H 8950 4600 50  0000 L CNN
 F 1 "475R" H 8900 4700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9150 4650 50  0001 C CNN
 F 3 "~" H 9150 4650 50  0001 C CNN
@@ -43,10 +32,10 @@ F 3 "~" H 9150 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L portable-light-rescue:R_Small-Device R38
+L portable-light-rescue:R_Small-Device R44
 U 1 1 5F357597
 P 9150 4350
-F 0 "R38" H 8950 4300 50  0000 L CNN
+F 0 "R44" H 8950 4300 50  0000 L CNN
 F 1 "1K" H 9000 4400 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9150 4350 50  0001 C CNN
 F 3 "~" H 9150 4350 50  0001 C CNN
@@ -59,10 +48,10 @@ Wire Wire Line
 Wire Wire Line
 	8600 4200 8600 4100
 $Comp
-L portable-light-rescue:GNDPWR-power #PWR058
+L portable-light-rescue:GNDPWR-power #PWR030
 U 1 1 5F378F8C
 P 8600 4200
-F 0 "#PWR058" H 8600 4000 50  0001 C CNN
+F 0 "#PWR030" H 8600 4000 50  0001 C CNN
 F 1 "GNDPWR" H 8600 4050 50  0000 C CNN
 F 2 "" H 8600 4150 50  0001 C CNN
 F 3 "" H 8600 4150 50  0001 C CNN
@@ -72,10 +61,10 @@ $EndComp
 Wire Wire Line
 	8350 3800 8600 3800
 $Comp
-L portable-light-rescue:C_Small-Device C18
+L portable-light-rescue:C_Small-Device C20
 U 1 1 5F37785B
 P 8600 4000
-F 0 "C18" H 8692 4046 50  0000 L CNN
+F 0 "C20" H 8692 4046 50  0000 L CNN
 F 1 "10u" H 8692 3955 50  0000 L CNN
 F 2 "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm" H 8600 4000 50  0001 C CNN
 F 3 "~" H 8600 4000 50  0001 C CNN
@@ -83,10 +72,10 @@ F 3 "~" H 8600 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:GNDPWR-power #PWR057
+L portable-light-rescue:GNDPWR-power #PWR029
 U 1 1 5F377859
 P 7750 5250
-F 0 "#PWR057" H 7750 5050 50  0001 C CNN
+F 0 "#PWR029" H 7750 5050 50  0001 C CNN
 F 1 "GNDPWR" H 7750 5100 50  0000 C CNN
 F 2 "" H 7750 5200 50  0001 C CNN
 F 3 "" H 7750 5200 50  0001 C CNN
@@ -109,10 +98,10 @@ $EndComp
 Text Notes 7100 6950 0    157  ~ 31
 Buck converter
 $Comp
-L portable-light-rescue:R_Small-Device R37
+L portable-light-rescue:R_Small-Device R43
 U 1 1 5F3778C2
 P 9150 4100
-F 0 "R37" H 8950 4050 50  0000 L CNN
+F 0 "R43" H 8950 4050 50  0000 L CNN
 F 1 "475R" H 8900 4150 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9150 4100 50  0001 C CNN
 F 3 "~" H 9150 4100 50  0001 C CNN
@@ -136,34 +125,10 @@ F 3 "NXP" H 7750 4800 50  0001 L BNN
 	1    7750 4800
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60316E40
-P 6800 3350
-AR Path="/5F34BD03/60316E40" Ref="#PWR?"  Part="1" 
-AR Path="/5F37658B/60316E40" Ref="#PWR053"  Part="1" 
-F 0 "#PWR053" H 6800 3100 50  0001 C CNN
-F 1 "GND" H 6805 3177 50  0000 C CNN
-F 2 "" H 6800 3350 50  0001 C CNN
-F 3 "" H 6800 3350 50  0001 C CNN
-	1    6800 3350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6800 3300 6800 3350
 Wire Wire Line
 	7750 2400 7750 2250
-$Comp
-L portable-light-rescue:+BATT-power #PWR056
-U 1 1 5F377858
-P 7750 2250
-F 0 "#PWR056" H 7750 2100 50  0001 C CNN
-F 1 "+BATT" H 7765 2423 50  0000 C CNN
-F 2 "" H 7750 2250 50  0001 C CNN
-F 3 "" H 7750 2250 50  0001 C CNN
-	1    7750 2250
-	1    0    0    -1  
-$EndComp
 $Comp
 L portable-light-rescue:PHD45N03LTA-PHD45N03LTA Q19
 U 1 1 5F378FEB
@@ -176,10 +141,10 @@ F 3 "NXP" H 7750 2700 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L portable-light-rescue:R_Small-Device R35
+L portable-light-rescue:R_Small-Device R41
 U 1 1 60306208
 P 7250 2800
-F 0 "R35" V 7150 2750 50  0000 L CNN
+F 0 "R41" V 7150 2750 50  0000 L CNN
 F 1 "33R" V 7350 2700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7250 2800 50  0001 C CNN
 F 3 "~" H 7250 2800 50  0001 C CNN
@@ -206,26 +171,13 @@ L Device:R_Small R?
 U 1 1 60316E01
 P 6250 2500
 AR Path="/5F34BD03/60316E01" Ref="R?"  Part="1" 
-AR Path="/5F37658B/60316E01" Ref="R31"  Part="1" 
-F 0 "R31" V 6054 2500 50  0000 C CNN
+AR Path="/5F37658B/60316E01" Ref="R37"  Part="1" 
+F 0 "R37" V 6054 2500 50  0000 C CNN
 F 1 "1K" V 6145 2500 50  0000 C CNN
-F 2 "" H 6250 2500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6250 2500 50  0001 C CNN
 F 3 "~" H 6250 2500 50  0001 C CNN
 	1    6250 2500
 	0    1    1    0   
-$EndComp
-$Comp
-L power:+BATT #PWR?
-U 1 1 60316E07
-P 6800 2250
-AR Path="/5F34BD03/60316E07" Ref="#PWR?"  Part="1" 
-AR Path="/5F37658B/60316E07" Ref="#PWR052"  Part="1" 
-F 0 "#PWR052" H 6800 2100 50  0001 C CNN
-F 1 "+BATT" H 6815 2423 50  0000 C CNN
-F 2 "" H 6800 2250 50  0001 C CNN
-F 3 "" H 6800 2250 50  0001 C CNN
-	1    6800 2250
-	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6800 2250 6800 2300
@@ -236,10 +188,10 @@ L Device:R_Small R?
 U 1 1 60316E0F
 P 5800 2500
 AR Path="/5F34BD03/60316E0F" Ref="R?"  Part="1" 
-AR Path="/5F37658B/60316E0F" Ref="R27"  Part="1" 
-F 0 "R27" V 5604 2500 50  0000 C CNN
-F 1 "50R" V 5695 2500 50  0000 C CNN
-F 2 "" H 5800 2500 50  0001 C CNN
+AR Path="/5F37658B/60316E0F" Ref="R33"  Part="1" 
+F 0 "R33" V 5604 2500 50  0000 C CNN
+F 1 "56R" V 5695 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 2500 50  0001 C CNN
 F 3 "~" H 5800 2500 50  0001 C CNN
 	1    5800 2500
 	0    1    1    0   
@@ -249,10 +201,10 @@ L Device:C_Small C?
 U 1 1 60316E15
 P 6250 2150
 AR Path="/5F34BD03/60316E15" Ref="C?"  Part="1" 
-AR Path="/5F37658B/60316E15" Ref="C14"  Part="1" 
-F 0 "C14" V 6200 2050 50  0000 C CNN
-F 1 "C_Small" V 6200 2350 50  0000 C CNN
-F 2 "" H 6250 2150 50  0001 C CNN
+AR Path="/5F37658B/60316E15" Ref="C16"  Part="1" 
+F 0 "C16" V 6200 2050 50  0000 C CNN
+F 1 "10n" V 6200 2350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 2150 50  0001 C CNN
 F 3 "~" H 6250 2150 50  0001 C CNN
 	1    6250 2150
 	0    -1   1    0   
@@ -273,19 +225,6 @@ Wire Wire Line
 	6050 2500 6150 2500
 Wire Wire Line
 	5900 2500 6050 2500
-$Comp
-L Device:C_Small C?
-U 1 1 60316E31
-P 6250 2750
-AR Path="/5F34BD03/60316E31" Ref="C?"  Part="1" 
-AR Path="/5F37658B/60316E31" Ref="C15"  Part="1" 
-F 0 "C15" V 6200 2650 50  0000 C CNN
-F 1 "C_Small" V 6200 2950 50  0000 C CNN
-F 2 "" H 6250 2750 50  0001 C CNN
-F 3 "~" H 6250 2750 50  0001 C CNN
-	1    6250 2750
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	6450 2750 6450 3100
 Wire Wire Line
@@ -307,19 +246,6 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3900 2750 50  000
 	1    3900 2750
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60316E67
-P 4000 3000
-AR Path="/5F34BD03/60316E67" Ref="#PWR?"  Part="1" 
-AR Path="/5F37658B/60316E67" Ref="#PWR048"  Part="1" 
-F 0 "#PWR048" H 4000 2750 50  0001 C CNN
-F 1 "GND" H 4005 2827 50  0000 C CNN
-F 2 "" H 4000 3000 50  0001 C CNN
-F 3 "" H 4000 3000 50  0001 C CNN
-	1    4000 3000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4000 2950 4000 3000
 Wire Wire Line
@@ -336,7 +262,7 @@ AR Path="/5F34BD03/60316EB2" Ref="Q?"  Part="1"
 AR Path="/5F37658B/60316EB2" Ref="Q15"  Part="1" 
 F 0 "Q15" H 6890 2546 50  0000 L CNN
 F 1 "Q_PNP_BCE" H 6890 2455 50  0000 L CNN
-F 2 "" H 6900 2600 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6900 2600 50  0001 C CNN
 F 3 "~" H 6700 2500 50  0001 C CNN
 	1    6700 2500
 	1    0    0    -1  
@@ -361,19 +287,6 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5450 3350 50  000
 	1    5450 3350
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60316E92
-P 5550 3600
-AR Path="/5F34BD03/60316E92" Ref="#PWR?"  Part="1" 
-AR Path="/5F37658B/60316E92" Ref="#PWR050"  Part="1" 
-F 0 "#PWR050" H 5550 3350 50  0001 C CNN
-F 1 "GND" H 5555 3427 50  0000 C CNN
-F 2 "" H 5550 3600 50  0001 C CNN
-F 3 "" H 5550 3600 50  0001 C CNN
-	1    5550 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5550 3550 5550 3600
 Wire Wire Line
@@ -392,26 +305,13 @@ Wire Wire Line
 Wire Wire Line
 	6450 3100 6500 3100
 Connection ~ 6450 3100
-$Comp
-L power:GND #PWR?
-U 1 1 6038A2CE
-P 6800 5450
-AR Path="/5F34BD03/6038A2CE" Ref="#PWR?"  Part="1" 
-AR Path="/5F37658B/6038A2CE" Ref="#PWR055"  Part="1" 
-F 0 "#PWR055" H 6800 5200 50  0001 C CNN
-F 1 "GND" H 6805 5277 50  0000 C CNN
-F 2 "" H 6800 5450 50  0001 C CNN
-F 3 "" H 6800 5450 50  0001 C CNN
-	1    6800 5450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6800 5400 6800 5450
 $Comp
-L portable-light-rescue:R_Small-Device R36
+L portable-light-rescue:R_Small-Device R42
 U 1 1 6038A2D5
 P 7250 4900
-F 0 "R36" V 7150 4850 50  0000 L CNN
+F 0 "R42" V 7150 4850 50  0000 L CNN
 F 1 "33R" V 7350 4800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7250 4900 50  0001 C CNN
 F 3 "~" H 7250 4900 50  0001 C CNN
@@ -431,36 +331,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6700 5200 50  000
 	1    6700 5200
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+BATT #PWR?
-U 1 1 6038A2E7
-P 6800 4350
-AR Path="/5F34BD03/6038A2E7" Ref="#PWR?"  Part="1" 
-AR Path="/5F37658B/6038A2E7" Ref="#PWR054"  Part="1" 
-F 0 "#PWR054" H 6800 4200 50  0001 C CNN
-F 1 "+BATT" H 6815 4523 50  0000 C CNN
-F 2 "" H 6800 4350 50  0001 C CNN
-F 3 "" H 6800 4350 50  0001 C CNN
-	1    6800 4350
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	6800 4350 6800 4400
 Wire Wire Line
 	6350 4600 6450 4600
-$Comp
-L Device:C_Small C?
-U 1 1 6038A2F5
-P 6250 4250
-AR Path="/5F34BD03/6038A2F5" Ref="C?"  Part="1" 
-AR Path="/5F37658B/6038A2F5" Ref="C16"  Part="1" 
-F 0 "C16" V 6200 4150 50  0000 C CNN
-F 1 "C_Small" V 6200 4450 50  0000 C CNN
-F 2 "" H 6250 4250 50  0001 C CNN
-F 3 "~" H 6250 4250 50  0001 C CNN
-	1    6250 4250
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	6450 4250 6450 4600
 Wire Wire Line
@@ -477,19 +351,6 @@ Wire Wire Line
 	6050 4600 6150 4600
 Wire Wire Line
 	5900 4600 6050 4600
-$Comp
-L Device:C_Small C?
-U 1 1 6038A304
-P 6250 4850
-AR Path="/5F34BD03/6038A304" Ref="C?"  Part="1" 
-AR Path="/5F37658B/6038A304" Ref="C17"  Part="1" 
-F 0 "C17" V 6200 4750 50  0000 C CNN
-F 1 "C_Small" V 6200 5050 50  0000 C CNN
-F 2 "" H 6250 4850 50  0001 C CNN
-F 3 "~" H 6250 4850 50  0001 C CNN
-	1    6250 4850
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	6450 4850 6450 5200
 Wire Wire Line
@@ -511,19 +372,6 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3900 4850 50  000
 	1    3900 4850
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6038A32E
-P 4000 5100
-AR Path="/5F34BD03/6038A32E" Ref="#PWR?"  Part="1" 
-AR Path="/5F37658B/6038A32E" Ref="#PWR049"  Part="1" 
-F 0 "#PWR049" H 4000 4850 50  0001 C CNN
-F 1 "GND" H 4005 4927 50  0000 C CNN
-F 2 "" H 4000 5100 50  0001 C CNN
-F 3 "" H 4000 5100 50  0001 C CNN
-	1    4000 5100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4000 5050 4000 5100
 Wire Wire Line
@@ -540,7 +388,7 @@ AR Path="/5F34BD03/6038A345" Ref="Q?"  Part="1"
 AR Path="/5F37658B/6038A345" Ref="Q17"  Part="1" 
 F 0 "Q17" H 6890 4646 50  0000 L CNN
 F 1 "Q_PNP_BCE" H 6890 4555 50  0000 L CNN
-F 2 "" H 6900 4700 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6900 4700 50  0001 C CNN
 F 3 "~" H 6700 4600 50  0001 C CNN
 	1    6700 4600
 	1    0    0    -1  
@@ -570,26 +418,13 @@ L Device:R_Small R?
 U 1 1 6038A361
 P 5000 5450
 AR Path="/5F34BD03/6038A361" Ref="R?"  Part="1" 
-AR Path="/5F37658B/6038A361" Ref="R26"  Part="1" 
-F 0 "R26" V 4804 5450 50  0000 C CNN
+AR Path="/5F37658B/6038A361" Ref="R32"  Part="1" 
+F 0 "R32" V 4804 5450 50  0000 C CNN
 F 1 "10K" V 4895 5450 50  0000 C CNN
-F 2 "" H 5000 5450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5000 5450 50  0001 C CNN
 F 3 "~" H 5000 5450 50  0001 C CNN
 	1    5000 5450
 	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6038A36D
-P 5550 5700
-AR Path="/5F34BD03/6038A36D" Ref="#PWR?"  Part="1" 
-AR Path="/5F37658B/6038A36D" Ref="#PWR051"  Part="1" 
-F 0 "#PWR051" H 5550 5450 50  0001 C CNN
-F 1 "GND" H 5555 5527 50  0000 C CNN
-F 2 "" H 5550 5700 50  0001 C CNN
-F 3 "" H 5550 5700 50  0001 C CNN
-	1    5550 5700
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5550 5650 5550 5700
@@ -621,9 +456,9 @@ Wire Wire Line
 Connection ~ 9150 3800
 Wire Wire Line
 	9150 3800 9550 3800
-Text HLabel 9550 3800 2    79   Input ~ 0
+Text HLabel 9550 3800 2    79   Output ~ 0
 vout
-Text HLabel 9550 4500 2    79   Input ~ 0
+Text HLabel 9550 4500 2    79   Output ~ 0
 vsense
 Wire Wire Line
 	9150 4500 9550 4500
@@ -648,10 +483,10 @@ L Device:R_Small R?
 U 1 1 5F65F4D9
 P 6250 3100
 AR Path="/5F34BD03/5F65F4D9" Ref="R?"  Part="1" 
-AR Path="/5F37658B/5F65F4D9" Ref="R32"  Part="1" 
-F 0 "R32" V 6054 3100 50  0000 C CNN
+AR Path="/5F37658B/5F65F4D9" Ref="R38"  Part="1" 
+F 0 "R38" V 6054 3100 50  0000 C CNN
 F 1 "1K" V 6145 3100 50  0000 C CNN
-F 2 "" H 6250 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6250 3100 50  0001 C CNN
 F 3 "~" H 6250 3100 50  0001 C CNN
 	1    6250 3100
 	0    1    1    0   
@@ -661,10 +496,10 @@ L Device:R_Small R?
 U 1 1 5F65F966
 P 6250 4600
 AR Path="/5F34BD03/5F65F966" Ref="R?"  Part="1" 
-AR Path="/5F37658B/5F65F966" Ref="R33"  Part="1" 
-F 0 "R33" V 6054 4600 50  0000 C CNN
+AR Path="/5F37658B/5F65F966" Ref="R39"  Part="1" 
+F 0 "R39" V 6054 4600 50  0000 C CNN
 F 1 "1K" V 6145 4600 50  0000 C CNN
-F 2 "" H 6250 4600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6250 4600 50  0001 C CNN
 F 3 "~" H 6250 4600 50  0001 C CNN
 	1    6250 4600
 	0    1    1    0   
@@ -674,51 +509,12 @@ L Device:R_Small R?
 U 1 1 5F66116D
 P 6250 5200
 AR Path="/5F34BD03/5F66116D" Ref="R?"  Part="1" 
-AR Path="/5F37658B/5F66116D" Ref="R34"  Part="1" 
-F 0 "R34" V 6054 5200 50  0000 C CNN
+AR Path="/5F37658B/5F66116D" Ref="R40"  Part="1" 
+F 0 "R40" V 6054 5200 50  0000 C CNN
 F 1 "1K" V 6145 5200 50  0000 C CNN
-F 2 "" H 6250 5200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6250 5200 50  0001 C CNN
 F 3 "~" H 6250 5200 50  0001 C CNN
 	1    6250 5200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5F66157F
-P 5800 3100
-AR Path="/5F34BD03/5F66157F" Ref="R?"  Part="1" 
-AR Path="/5F37658B/5F66157F" Ref="R28"  Part="1" 
-F 0 "R28" V 5604 3100 50  0000 C CNN
-F 1 "50R" V 5695 3100 50  0000 C CNN
-F 2 "" H 5800 3100 50  0001 C CNN
-F 3 "~" H 5800 3100 50  0001 C CNN
-	1    5800 3100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5F661A49
-P 5800 4600
-AR Path="/5F34BD03/5F661A49" Ref="R?"  Part="1" 
-AR Path="/5F37658B/5F661A49" Ref="R29"  Part="1" 
-F 0 "R29" V 5604 4600 50  0000 C CNN
-F 1 "50R" V 5695 4600 50  0000 C CNN
-F 2 "" H 5800 4600 50  0001 C CNN
-F 3 "~" H 5800 4600 50  0001 C CNN
-	1    5800 4600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5F661FAC
-P 5800 5200
-AR Path="/5F34BD03/5F661FAC" Ref="R?"  Part="1" 
-AR Path="/5F37658B/5F661FAC" Ref="R30"  Part="1" 
-F 0 "R30" V 5604 5200 50  0000 C CNN
-F 1 "50R" V 5695 5200 50  0000 C CNN
-F 2 "" H 5800 5200 50  0001 C CNN
-F 3 "~" H 5800 5200 50  0001 C CNN
-	1    5800 5200
 	0    1    1    0   
 $EndComp
 $Comp
@@ -726,10 +522,10 @@ L Device:R_Small R?
 U 1 1 5F664153
 P 3450 4850
 AR Path="/5F34BD03/5F664153" Ref="R?"  Part="1" 
-AR Path="/5F37658B/5F664153" Ref="R24"  Part="1" 
-F 0 "R24" V 3254 4850 50  0000 C CNN
+AR Path="/5F37658B/5F664153" Ref="R30"  Part="1" 
+F 0 "R30" V 3254 4850 50  0000 C CNN
 F 1 "10K" V 3345 4850 50  0000 C CNN
-F 2 "" H 3450 4850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3450 4850 50  0001 C CNN
 F 3 "~" H 3450 4850 50  0001 C CNN
 	1    3450 4850
 	0    1    1    0   
@@ -739,12 +535,90 @@ L Device:R_Small R?
 U 1 1 5F664602
 P 5000 3350
 AR Path="/5F34BD03/5F664602" Ref="R?"  Part="1" 
-AR Path="/5F37658B/5F664602" Ref="R25"  Part="1" 
-F 0 "R25" V 4804 3350 50  0000 C CNN
+AR Path="/5F37658B/5F664602" Ref="R31"  Part="1" 
+F 0 "R31" V 4804 3350 50  0000 C CNN
 F 1 "10K" V 4895 3350 50  0000 C CNN
-F 2 "" H 5000 3350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5000 3350 50  0001 C CNN
 F 3 "~" H 5000 3350 50  0001 C CNN
 	1    5000 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F6D026A
+P 6250 2750
+AR Path="/5F34BD03/5F6D026A" Ref="C?"  Part="1" 
+AR Path="/5F37658B/5F6D026A" Ref="C17"  Part="1" 
+F 0 "C17" V 6200 2650 50  0000 C CNN
+F 1 "10n" V 6200 2950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 2750 50  0001 C CNN
+F 3 "~" H 6250 2750 50  0001 C CNN
+	1    6250 2750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F6D068A
+P 6250 4250
+AR Path="/5F34BD03/5F6D068A" Ref="C?"  Part="1" 
+AR Path="/5F37658B/5F6D068A" Ref="C18"  Part="1" 
+F 0 "C18" V 6200 4150 50  0000 C CNN
+F 1 "10n" V 6200 4450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 4250 50  0001 C CNN
+F 3 "~" H 6250 4250 50  0001 C CNN
+	1    6250 4250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F6D2184
+P 6250 4850
+AR Path="/5F34BD03/5F6D2184" Ref="C?"  Part="1" 
+AR Path="/5F37658B/5F6D2184" Ref="C19"  Part="1" 
+F 0 "C19" V 6200 4750 50  0000 C CNN
+F 1 "10n" V 6200 5050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 4850 50  0001 C CNN
+F 3 "~" H 6250 4850 50  0001 C CNN
+	1    6250 4850
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F622926
+P 5800 3100
+AR Path="/5F34BD03/5F622926" Ref="R?"  Part="1" 
+AR Path="/5F37658B/5F622926" Ref="R34"  Part="1" 
+F 0 "R34" V 5604 3100 50  0000 C CNN
+F 1 "56R" V 5695 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 3100 50  0001 C CNN
+F 3 "~" H 5800 3100 50  0001 C CNN
+	1    5800 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F622E36
+P 5800 4600
+AR Path="/5F34BD03/5F622E36" Ref="R?"  Part="1" 
+AR Path="/5F37658B/5F622E36" Ref="R35"  Part="1" 
+F 0 "R35" V 5604 4600 50  0000 C CNN
+F 1 "56R" V 5695 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 4600 50  0001 C CNN
+F 3 "~" H 5800 4600 50  0001 C CNN
+	1    5800 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F6233CB
+P 5800 5200
+AR Path="/5F34BD03/5F6233CB" Ref="R?"  Part="1" 
+AR Path="/5F37658B/5F6233CB" Ref="R36"  Part="1" 
+F 0 "R36" V 5604 5200 50  0000 C CNN
+F 1 "56R" V 5695 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 5200 50  0001 C CNN
+F 3 "~" H 5800 5200 50  0001 C CNN
+	1    5800 5200
 	0    1    1    0   
 $EndComp
 $Comp
@@ -752,12 +626,88 @@ L Device:R_Small R?
 U 1 1 5F665738
 P 3450 2750
 AR Path="/5F34BD03/5F665738" Ref="R?"  Part="1" 
-AR Path="/5F37658B/5F665738" Ref="R23"  Part="1" 
-F 0 "R23" V 3254 2750 50  0000 C CNN
+AR Path="/5F37658B/5F665738" Ref="R29"  Part="1" 
+F 0 "R29" V 3254 2750 50  0000 C CNN
 F 1 "10K" V 3345 2750 50  0000 C CNN
-F 2 "" H 3450 2750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3450 2750 50  0001 C CNN
 F 3 "~" H 3450 2750 50  0001 C CNN
 	1    3450 2750
 	0    1    1    0   
 $EndComp
+$Comp
+L portable-light-rescue:GNDPWR-power #PWR028
+U 1 1 5F6680CA
+P 6800 5450
+F 0 "#PWR028" H 6800 5250 50  0001 C CNN
+F 1 "GNDPWR" H 6800 5300 50  0000 C CNN
+F 2 "" H 6800 5400 50  0001 C CNN
+F 3 "" H 6800 5400 50  0001 C CNN
+	1    6800 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L portable-light-rescue:GNDPWR-power #PWR026
+U 1 1 5F6686C6
+P 5550 5700
+F 0 "#PWR026" H 5550 5500 50  0001 C CNN
+F 1 "GNDPWR" H 5550 5550 50  0000 C CNN
+F 2 "" H 5550 5650 50  0001 C CNN
+F 3 "" H 5550 5650 50  0001 C CNN
+	1    5550 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L portable-light-rescue:GNDPWR-power #PWR024
+U 1 1 5F668C9C
+P 4000 5100
+F 0 "#PWR024" H 4000 4900 50  0001 C CNN
+F 1 "GNDPWR" H 4000 4950 50  0000 C CNN
+F 2 "" H 4000 5050 50  0001 C CNN
+F 3 "" H 4000 5050 50  0001 C CNN
+	1    4000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L portable-light-rescue:GNDPWR-power #PWR025
+U 1 1 5F669193
+P 5550 3600
+F 0 "#PWR025" H 5550 3400 50  0001 C CNN
+F 1 "GNDPWR" H 5550 3450 50  0000 C CNN
+F 2 "" H 5550 3550 50  0001 C CNN
+F 3 "" H 5550 3550 50  0001 C CNN
+	1    5550 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L portable-light-rescue:GNDPWR-power #PWR027
+U 1 1 5F66977E
+P 6800 3350
+F 0 "#PWR027" H 6800 3150 50  0001 C CNN
+F 1 "GNDPWR" H 6800 3200 50  0000 C CNN
+F 2 "" H 6800 3300 50  0001 C CNN
+F 3 "" H 6800 3300 50  0001 C CNN
+	1    6800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L portable-light-rescue:GNDPWR-power #PWR023
+U 1 1 5F669F75
+P 4000 3000
+F 0 "#PWR023" H 4000 2800 50  0001 C CNN
+F 1 "GNDPWR" H 4000 2850 50  0000 C CNN
+F 2 "" H 4000 2950 50  0001 C CNN
+F 3 "" H 4000 2950 50  0001 C CNN
+	1    4000 3000
+	1    0    0    -1  
+$EndComp
+Text HLabel 9550 4800 2    79   Output ~ 0
+vsense_gnd
+Wire Wire Line
+	9150 4800 9550 4800
+Text GLabel 7750 2250 1    39   UnSpc ~ 0
++BATT-1
+Text GLabel 6800 2250 1    39   UnSpc ~ 0
++PUMP-1
+Text GLabel 6800 4350 1    39   UnSpc ~ 0
++PUMP-1
 $EndSCHEMATC
