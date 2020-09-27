@@ -985,7 +985,7 @@ F 3 "~" H 9400 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 9750 2050 1    39   UnSpc ~ 0
-+BATT-1
++BATT-2
 Wire Wire Line
 	9750 2050 9750 2550
 Text GLabel 7800 2200 1    39   UnSpc ~ 0

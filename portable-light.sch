@@ -158,15 +158,15 @@ F 3 "~" H 9900 2200 50  0001 C CNN
 $EndComp
 Text Label 10100 2200 0    39   ~ 0
 buck_high_mos_high_bjt_2
-Text Label 10100 1800 0    39   ~ 0
-pump_clka_2
 Text Label 10100 1900 0    39   ~ 0
+pump_clka_2
+Text Label 10100 1800 0    39   ~ 0
 pump_clkb_2
 Text Label 10100 2000 0    39   ~ 0
 pump_onoff_2
-Text Label 10100 2500 0    39   ~ 0
-buck_low_mos_low_bjt_2
 Text Label 10100 2400 0    39   ~ 0
+buck_low_mos_low_bjt_2
+Text Label 10100 2500 0    39   ~ 0
 buck_low_mos_high_bjt_2
 Text Label 10100 2300 0    39   ~ 0
 buck_high_mos_low_bjt_2
