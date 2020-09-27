@@ -386,7 +386,7 @@ Text Label 2150 5350 2    39   ~ 0
 shiftregister-data
 Wire Wire Line
 	4000 6850 4000 6700
-Text Label 7350 4250 2    39   ~ 0
+Text Label 8400 4650 2    39   ~ 0
 seg-base-1
 Wire Wire Line
 	2850 850  3000 850 
@@ -545,11 +545,11 @@ F 3 "~" H 7750 4250 50  0001 C CNN
 $EndComp
 Text Label 9400 5050 2    39   ~ 0
 seg-base-6
-Text Label 8350 5450 2    39   ~ 0
+Text Label 9400 5850 2    39   ~ 0
 seg-base-5
-Text Label 8400 4650 2    39   ~ 0
+Text Label 7350 4250 2    39   ~ 0
 seg-base-4
-Text Label 7350 5050 2    39   ~ 0
+Text Label 7350 5850 2    39   ~ 0
 seg-base-2
 $Comp
 L portable-light-rescue:R_Small-Device R15
@@ -605,7 +605,7 @@ F 3 "~" H 8450 5450 50  0001 C CNN
 	1    8450 5450
 	0    1    1    0   
 $EndComp
-Text Label 9400 5850 2    39   ~ 0
+Text Label 8350 5450 2    39   ~ 0
 seg-base-7
 $Comp
 L Device:Q_PNP_BCE Q7
@@ -629,7 +629,7 @@ F 3 "~" H 7450 5850 50  0001 C CNN
 	1    7450 5850
 	0    1    1    0   
 $EndComp
-Text Label 7350 5850 2    39   ~ 0
+Text Label 7350 5050 2    39   ~ 0
 seg-base-3
 $Comp
 L Device:Q_PNP_BCE Q6
@@ -741,10 +741,6 @@ F 3 "~" H 5450 6850 50  0001 C CNN
 	1    5450 6850
 	0    1    1    0   
 $EndComp
-Text Label 5350 7050 2    39   ~ 0
-seg-7
-Text Label 5350 6850 2    39   ~ 0
-seg-5
 $Comp
 L Device:Q_PNP_BCE Q10
 U 1 1 5F6DCE86
@@ -768,28 +764,6 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9500 5850 50  
 F 3 "~" H 9500 5850 50  0001 C CNN
 	1    9500 5850
 	0    1    1    0   
-$EndComp
-$Comp
-L portable-light-rescue:GND-power #PWR015
-U 1 1 5F6B2439
-P 3600 900
-F 0 "#PWR015" H 3600 650 50  0001 C CNN
-F 1 "GND" H 3700 750 50  0000 C CNN
-F 2 "" H 3600 900 50  0001 C CNN
-F 3 "" H 3600 900 50  0001 C CNN
-	1    3600 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR011
-U 1 1 5F66406C
-P 2100 1950
-F 0 "#PWR011" H 2100 1700 50  0001 C CNN
-F 1 "GND" H 2105 1777 50  0000 C CNN
-F 2 "" H 2100 1950 50  0001 C CNN
-F 3 "" H 2100 1950 50  0001 C CNN
-	1    2100 1950
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR010
@@ -1039,6 +1013,32 @@ F 1 "GND" H 8755 2677 50  0000 C CNN
 F 2 "" H 8750 2850 50  0001 C CNN
 F 3 "" H 8750 2850 50  0001 C CNN
 	1    8750 2850
+	1    0    0    -1  
+$EndComp
+Text Label 5350 7050 2    39   ~ 0
+seg-7
+Text Label 5350 6850 2    39   ~ 0
+seg-5
+$Comp
+L power:GNDA #PWR?
+U 1 1 5F74E657
+P 3600 900
+F 0 "#PWR?" H 3600 650 50  0001 C CNN
+F 1 "GNDA" H 3605 727 50  0000 C CNN
+F 2 "" H 3600 900 50  0001 C CNN
+F 3 "" H 3600 900 50  0001 C CNN
+	1    3600 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5F7553B9
+P 2100 1950
+F 0 "#PWR?" H 2100 1700 50  0001 C CNN
+F 1 "GNDA" H 2105 1777 50  0000 C CNN
+F 2 "" H 2100 1950 50  0001 C CNN
+F 3 "" H 2100 1950 50  0001 C CNN
+	1    2100 1950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
