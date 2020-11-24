@@ -3,7 +3,7 @@
 This circuit is used in a battery-powered portable handy light source,
 consisting of an array of LEDs, powered by a Panasonic lithium battery.
 
-[3D Model of the old single-pcb version](plot/3d.png)
+![3D Model of the old single-pcb version](plot/3d.png)
 
 ## Modules
 
