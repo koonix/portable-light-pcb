@@ -1,4 +1,4 @@
-# Portable Light Hardware
+# Portable Light
 
 This circuit is used in a battery-powered portable handy light source,
 consisting of an array of LEDs, powered by a Panasonic lithium battery.
