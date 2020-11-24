@@ -8,5 +8,5 @@ sym-lib-table
 *.pdf
 *.csv
 *.xml
-plot/*
+plot-temp/*
 temp/*
